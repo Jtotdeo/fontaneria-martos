@@ -1,0 +1,68 @@
+import { Review } from "@/types";
+
+export const reviews: Review[] = [
+  {
+    name: "María del Carmen López",
+    location: "Sant Vicent del Raspeig",
+    rating: 5,
+    text: "Llamé a Fontanería Martos porque teníamos una fuga en la cocina que llevaba semanas y no sabíamos de dónde venía. Vinieron al día siguiente, localizaron la fuga con una cámara especial detrás del azulejo sin tener que romper medio baño como nos habían dicho en otro sitio. La reparación fue limpia y rápida. Muy profesionales y el precio justo. Totalmente recomendables.",
+    date: "2025-02-14",
+    service: "Reparación de Fugas",
+  },
+  {
+    name: "Francisco Javier Hernández",
+    location: "Mutxamel",
+    rating: 5,
+    text: "Nos hicieron la reforma completa del baño de nuestro chalet. Desde el primer día fueron muy formales: llegaron puntuales, protegieron toda la casa y dejaban todo recogido al terminar la jornada. El resultado es espectacular, pasamos de una bañera vieja a un plato de ducha enorme con mampara de cristal. La grifería termostática es una maravilla. Cumplieron con el plazo que nos dieron y el presupuesto no se movió ni un céntimo.",
+    date: "2025-01-20",
+    service: "Reformas de Baños y Cocinas",
+  },
+  {
+    name: "Ana Belén Martínez",
+    location: "Alicante",
+    rating: 5,
+    text: "Teníamos un atasco terrible en el edificio, olía fatal y el agua volvía por los desagües de los pisos bajos. Fontanería Martos vino con un camión de agua a presión y una cámara para ver por dentro de las tuberías. Encontraron el problema y lo solucionaron en unas horas. Nos enseñaron el vídeo de antes y después, la diferencia era impresionante. Ahora tenemos contrato de mantenimiento con ellos y no hemos vuelto a tener ni un solo problema.",
+    date: "2024-11-08",
+    service: "Desatascos y Limpieza de Tuberías",
+  },
+  {
+    name: "José Antonio Pérez",
+    location: "San Juan de Alicante",
+    rating: 4,
+    text: "Cambiamos la caldera vieja de gasóleo de la comunidad por dos calderas de gas natural nuevas. El proyecto era grande y complejo pero lo gestionaron muy bien. Nos explicaron todas las opciones, nos ayudaron con las subvenciones y coordinaron todo con la empresa de gas. Solo pongo cuatro estrellas porque hubo un par de días de retraso respecto al calendario inicial, pero nos avisaron con antelación. El ahorro en la factura de calefacción está siendo brutal, casi un 40% menos.",
+    date: "2024-09-15",
+    service: "Calentadores y Calderas",
+  },
+  {
+    name: "Laura García Sánchez",
+    location: "Sant Vicent del Raspeig",
+    rating: 5,
+    text: "Se nos rompió el calentador un domingo por la mañana con dos niños pequeños en casa. Llamé sin mucha esperanza de que vinieran un fin de semana y en menos de una hora estaban aquí. Diagnosticaron que no tenía reparación y nos instalaron un calentador nuevo esa misma mañana. Muy agradecida por la rapidez y por no aprovecharse de la urgencia con el precio. Volveré a llamarles para cualquier cosa.",
+    date: "2025-03-02",
+    service: "Calentadores y Calderas",
+  },
+  {
+    name: "Pedro Ruiz Navarro",
+    location: "El Campello",
+    rating: 5,
+    text: "Contratamos la instalación completa de fontanería para un local que estábamos acondicionando como clínica dental. Necesitábamos muchos puntos de agua con requisitos específicos y un sistema de agua caliente instantánea en cada gabinete. Lo diseñaron todo perfectamente, cumpliendo la normativa sanitaria, y nos gestionaron el boletín de instalación para el alta del agua. Trabajo impecable y muy buen asesoramiento técnico.",
+    date: "2024-12-03",
+    service: "Instalación de Fontanería",
+  },
+  {
+    name: "Carmen Ortega Díaz",
+    location: "Mutxamel",
+    rating: 4,
+    text: "Nos reformaron la cocina entera, incluyendo mover el fregadero a una isla que queríamos poner. Me dijeron que era complicado por el tema del desagüe pero lo resolvieron sin problema. También instalaron un grifo de ósmosis que es una pasada, agua buenísima directa del grifo. El resultado final es precioso. La única pega menor es que tuvieron que volver una vez porque un grifo goteaba ligeramente, pero lo arreglaron al momento y sin coste.",
+    date: "2024-10-22",
+    service: "Reformas de Baños y Cocinas",
+  },
+  {
+    name: "Miguel Ángel Soler",
+    location: "Sant Vicent del Raspeig",
+    rating: 5,
+    text: "Soy administrador de fincas y trabajo con Fontanería Martos desde hace tres años para varias comunidades que gestiono. Son serios, puntuales y dan un servicio excelente tanto en urgencias como en trabajos programados. Los presupuestos son claros y detallados, lo que facilita mucho la aprobación en las juntas de vecinos. Los fontaneros son amables y dejan todo limpio. No dudo en recomendarlos a cualquier comunidad que necesite un fontanero de confianza en la zona.",
+    date: "2025-01-10",
+    service: "Reparación de Fugas",
+  },
+];
