@@ -1,4 +1,6 @@
-import type { Metadata } from "next";
+"use client";
+
+import { useDictionary } from "@/components/DictionaryProvider";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import StarRating from "@/components/ui/StarRating";
@@ -6,13 +8,9 @@ import CTABanner from "@/components/sections/CTABanner";
 import { reviews } from "@/lib/data/reviews";
 import { ExternalLink } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Reseñas de Clientes",
-  description:
-    "Lea las opiniones de nuestros clientes sobre Fontanería Martos. Más del 98% de satisfacción en todos nuestros trabajos de fontanería en Alicante.",
-};
-
 export default function ReviewsPage() {
+  const { dict, locale } = useDictionary();
+
   const avgRating =
     reviews.reduce((sum, r) => sum + r.rating, 0) / reviews.length;
 
@@ -22,16 +20,15 @@ export default function ReviewsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
-              { label: "Inicio", href: "/" },
-              { label: "Reseñas" },
+              { label: dict.common.home, href: `/${locale}` },
+              { label: dict.reviews.pageTitle },
             ]}
           />
           <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-            Reseñas de Clientes
+            {dict.reviews.pageTitle}
           </h1>
           <p className="text-primary-100 text-lg max-w-2xl">
-            La opinión de nuestros clientes es nuestra mejor carta de
-            presentación. Esto es lo que dicen sobre nuestro trabajo.
+            {dict.reviews.pageSubtitle}
           </p>
         </div>
       </section>
@@ -49,19 +46,19 @@ export default function ReviewsPage() {
                   <StarRating rating={Math.round(avgRating)} />
                 </div>
                 <p className="text-gray-500 mt-1">
-                  {reviews.length} reseñas
+                  {reviews.length} {dict.reviews.reviewCount}
                 </p>
               </div>
               <div className="h-16 w-px bg-gray-200 hidden md:block" />
               <div className="text-center md:text-left">
                 <p className="text-gray-700 text-lg">
-                  Valoración media de nuestros clientes
+                  {dict.reviews.average}
                 </p>
                 <a
                   href="#"
                   className="text-primary-600 font-medium inline-flex items-center gap-1 mt-1 hover:underline"
                 >
-                  Ver en Google Reviews{" "}
+                  {dict.reviews.viewGoogle}{" "}
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
@@ -70,7 +67,7 @@ export default function ReviewsPage() {
         </div>
       </section>
 
-      {/* Reseñas */}
+      {/* Resenas */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
@@ -103,10 +100,10 @@ export default function ReviewsPage() {
       </section>
 
       <CTABanner
-        title="¿Quiere Ser Nuestro Próximo Cliente Satisfecho?"
-        description="Contacte con nosotros y descubra por qué nuestros clientes nos recomiendan."
-        buttonText="Contactar Ahora"
-        buttonHref="/contacto"
+        title={dict.reviews.ctaTitle}
+        description={dict.reviews.ctaDesc}
+        buttonText={dict.cta.contactNow}
+        buttonHref={`/${locale}/contacto`}
       />
     </>
   );

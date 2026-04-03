@@ -1,0 +1,275 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "A propos",
+    "services": "Services",
+    "projects": "Projets",
+    "reviews": "Avis",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "requestQuote": "Demander un Devis",
+    "callUs": "Appelez-nous"
+  },
+  "hero": {
+    "title": "Plombiers de Confiance a Alicante",
+    "subtitle": "Plus de 20 ans a resoudre les problemes de plomberie a Sant Vicent del Raspeig et dans toute la province d'Alicante. Service professionnel, rapide et garanti.",
+    "cta": "Devis Gratuit",
+    "secondaryCta": "Voir Nos Services"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions professionnelles de plomberie pour chaque besoin",
+    "learnMore": "En savoir plus",
+    "benefits": "Avantages",
+    "process": "Notre Processus de Travail",
+    "faq": "Questions Frequentes",
+    "related": "Services Associes",
+    "requestQuote": "Demander un Devis",
+    "callPrice": "Appeler : +34 966 123 456",
+    "items": {
+      "reparacion-de-fugas": {
+        "title": "Reparation de Fuites",
+        "shortDesc": "Nous detectons et reparons les fuites d'eau dans les canalisations, robinets et systemes de plomberie avec une technologie avancee et un minimum de travaux.",
+        "description": "Les fuites d'eau sont l'un des problemes les plus courants et potentiellement les plus dommageables pour tout logement ou local commercial. Une fuite non detectee peut provoquer de graves dommages structurels, l'apparition d'humidite et de moisissures, et une augmentation considerable de la facture d'eau. Chez Fontaneria Martos, nous avons plus de 15 ans d'experience dans la detection et la reparation de tous types de fuites a Sant Vicent del Raspeig et ses environs.\n\nNous utilisons des equipements de detection de derniere generation, notamment des cameras thermiques, des equipements de correlation acoustique et du gaz traceur, nous permettant de localiser avec precision le point exact de la fuite sans travaux inutiles.\n\nNotre equipe est preparee pour intervenir sur les fuites dans les canalisations encastrees, les colonnes descendantes, les raccordements principaux, les circuits de chauffage, les systemes d'irrigation et les reseaux d'assainissement.",
+        "benefits": ["Detection precise avec cameras thermiques et equipements acoustiques", "Reparation avec un minimum de travaux grace aux techniques non invasives", "Service d'urgence 24h avec reponse en moins de 45 minutes", "Devis fixe sans surprises ni couts supplementaires", "Garantie de 2 ans sur toutes les reparations effectuees"],
+        "process": [
+          {"step": 1, "title": "Inspection et diagnostic", "desc": "Nous realisons une inspection complete du systeme de plomberie avec des equipements de detection avances pour localiser l'origine exacte de la fuite."},
+          {"step": 2, "title": "Devis detaille", "desc": "Nous vous presentons un devis fixe avec toutes les options de reparation disponibles."},
+          {"step": 3, "title": "Reparation professionnelle", "desc": "Nous effectuons la reparation avec les techniques les plus appropriees, en privilegiant les solutions les moins invasives."},
+          {"step": 4, "title": "Verification et garantie", "desc": "Nous verifions l'etancheite par des tests de pression et vous remettons un certificat de garantie ecrit."}
+        ],
+        "faq": [
+          {"q": "Comment savoir si j'ai une fuite cachee ?", "a": "Les signes les plus courants sont des taches d'humidite sur les murs ou plafonds, une augmentation inexpliquee de la facture d'eau, un bruit d'eau courante quand tous les robinets sont fermes, ou le compteur d'eau qui tourne sans consommation apparente."},
+          {"q": "Faut-il casser le mur pour reparer une fuite encastree ?", "a": "Pas toujours. Nous disposons de techniques de reparation sans travaux comme le chemisage de canalisations et la soudure specialisee."},
+          {"q": "Combien coute la reparation d'une fuite d'eau ?", "a": "Le cout depend du type de fuite, de son emplacement et de sa complexite. Une reparation simple peut commencer a partir de 60 euros, tandis qu'une fuite encastree peut varier entre 150 et 500 euros."},
+          {"q": "Intervenez-vous pour les fuites le week-end ?", "a": "Oui, nous offrons un service d'urgence 24h/24, 7j/7, y compris les week-ends et jours feries."}
+        ]
+      },
+      "instalacion-de-fontaneria": {
+        "title": "Installation de Plomberie",
+        "shortDesc": "Nous realisons des installations completes de plomberie pour constructions neuves et renovations, avec des materiaux homologues conformes a toutes les reglementations en vigueur.",
+        "description": "L'installation de plomberie est la base de toute construction et necessite une conception et une execution professionnelles pour garantir un fonctionnement optimal pendant des decennies. Chez Fontaneria Martos, nous sommes specialistes des installations completes pour logements neufs, renovations integrales, locaux commerciaux et coproprietes.\n\nNotre service couvre depuis la conception du trace des canalisations jusqu'a l'installation finale des sanitaires et robinetterie, en passant par le raccordement principal, la distribution d'eau chaude et froide, les evacuations et le raccordement au reseau d'assainissement.\n\nNous utilisons exclusivement des materiaux de premiere qualite homologues : canalisations en polypropylene, multicouche, cuivre et PVC pour l'assainissement.",
+        "benefits": ["Conception personnalisee du trace des canalisations", "Materiaux homologues de grandes marques", "Conformite au Code Technique de la Construction", "Traitement des permis et certificats inclus", "Coordination avec les autres corps de metier pour les renovations integrales"],
+        "process": [
+          {"step": 1, "title": "Visite technique et conception", "desc": "Nous evaluons l'espace, prenons les mesures et concevons le trace optimal des canalisations."},
+          {"step": 2, "title": "Devis detaille", "desc": "Detail complet des materiaux, main-d'oeuvre et delais d'execution."},
+          {"step": 3, "title": "Execution de l'installation", "desc": "Nous installons l'ensemble du reseau de plomberie avec des materiaux de premiere qualite."},
+          {"step": 4, "title": "Tests et certification", "desc": "Nous realisons des tests de pression et d'etancheite, et delivrons le certificat correspondant."}
+        ],
+        "faq": [
+          {"q": "Quels materiaux utilisez-vous pour les canalisations ?", "a": "Nous travaillons avec le polypropylene (PPR), le multicouche et le cuivre pour l'eau, et le PVC pour l'assainissement."},
+          {"q": "Vous occupez-vous des permis necessaires ?", "a": "Oui, nous traitons tous les permis et certificats necessaires, y compris le certificat de plomberie pour le raccordement."},
+          {"q": "Combien de temps prend une installation complete ?", "a": "Cela depend de la taille du projet. Un logement standard peut etre pret en 3 a 5 jours ouvrables."}
+        ]
+      },
+      "desatascos": {
+        "title": "Debouchage et Nettoyage de Canalisations",
+        "shortDesc": "Service professionnel de debouchage avec equipement haute pression. Nous resolvons les obstructions dans les canalisations, colonnes descendantes et reseaux d'assainissement.",
+        "description": "Les obstructions de canalisations sont l'un des incidents les plus desagreables et frequents dans tout logement ou commerce. Un bouchon peut provoquer de mauvaises odeurs, des debordements et meme des degats des eaux s'il n'est pas resolu a temps. Chez Fontaneria Martos, nous disposons d'equipements professionnels pour resoudre tout type d'obstruction rapidement et definitivement.\n\nNous disposons de machines de debouchage mecaniques et haute pression (jusqu'a 300 bar) capables d'eliminer les obstructions les plus resistantes. Nous utilisons egalement des cameras d'inspection CCTV pour diagnostiquer avec precision la cause et l'emplacement du bouchon.\n\nNous debouchons eviers, lavabos, douches, baignoires, toilettes, colonnes descendantes communautaires et reseaux generaux d'assainissement.",
+        "benefits": ["Equipement haute pression jusqu'a 300 bar", "Camera d'inspection CCTV pour diagnostic precis", "Service d'urgence 24h disponible", "Solution definitive, pas de reparations temporaires", "Nettoyage preventif pour eviter les futurs bouchons"],
+        "process": [
+          {"step": 1, "title": "Diagnostic par camera", "desc": "Nous inspectons la canalisation avec une camera CCTV pour identifier la cause exacte du bouchon."},
+          {"step": 2, "title": "Debouchage professionnel", "desc": "Nous appliquons la technique la plus adaptee selon le type d'obstruction."},
+          {"step": 3, "title": "Nettoyage complet", "desc": "Nous nettoyons toute la canalisation pour prevenir les futurs bouchons."},
+          {"step": 4, "title": "Verification finale", "desc": "Nous verifions par camera que la canalisation est completement libre."}
+        ],
+        "faq": [
+          {"q": "Intervenez-vous en urgence pour les bouchons ?", "a": "Oui, nous disposons d'un service d'urgence 24h pour les bouchons graves pouvant causer des debordements ou des degats des eaux."},
+          {"q": "Pouvez-vous deboucher les colonnes descendantes collectives ?", "a": "Oui, nous avons l'experience et les equipements adaptes pour deboucher les colonnes descendantes et reseaux d'assainissement collectifs."},
+          {"q": "Comment prevenir les bouchons ?", "a": "Nous recommandons de ne pas verser de graisses ni de dechets solides dans les eviers, d'utiliser des grilles de protection et de realiser un nettoyage preventif annuel."}
+        ]
+      },
+      "calentadores-y-calderas": {
+        "title": "Chauffe-eau et Chaudieres",
+        "shortDesc": "Installation, reparation et entretien de chauffe-eau et chaudieres a gaz de toutes marques.",
+        "description": "Le bon fonctionnement de votre chauffe-eau ou chaudiere est essentiel pour votre confort quotidien. Chez Fontaneria Martos, nous offrons un service complet couvrant l'installation d'equipements neufs, la reparation de pannes et l'entretien preventif pour garantir une efficacite et une securite maximales.\n\nNous travaillons avec toutes les marques du marche : Junkers, Vaillant, Baxi, Saunier Duval, Ferroli et plus. Nos techniciens sont certifies pour travailler sur les installations de gaz et suivent une formation continue sur les dernieres technologies.\n\nNous proposons des contrats d'entretien annuels comprenant revision complete, nettoyage des circuits et reglage des parametres pour optimiser la consommation energetique.",
+        "benefits": ["Techniciens certifies pour installations de gaz", "Service pour toutes marques et modeles", "Contrats d'entretien preventif annuels", "Pieces de rechange d'origine", "Conseils en efficacite energetique"],
+        "process": [
+          {"step": 1, "title": "Diagnostic de l'equipement", "desc": "Nous examinons l'etat complet du chauffe-eau ou de la chaudiere pour identifier le probleme."},
+          {"step": 2, "title": "Devis de reparation", "desc": "Nous vous informons du cout et vous conseillons s'il vaut mieux reparer ou remplacer."},
+          {"step": 3, "title": "Reparation ou installation", "desc": "Nous effectuons le travail avec des pieces d'origine selon les specifications du fabricant."},
+          {"step": 4, "title": "Mise en service et reglage", "desc": "Nous verifions le bon fonctionnement et ajustons les parametres pour une efficacite maximale."}
+        ],
+        "faq": [
+          {"q": "A quelle frequence faut-il reviser la chaudiere ?", "a": "Une revision annuelle est recommandee pour garantir securite et efficacite energetique. C'est egalement obligatoire par la reglementation."},
+          {"q": "Quand faut-il remplacer son chauffe-eau ?", "a": "S'il a plus de 10-15 ans, presente des pannes frequentes ou que la consommation a nettement augmente, il est conseille de le remplacer par un modele plus efficace."},
+          {"q": "Travaillez-vous avec les chauffe-eau electriques ?", "a": "Oui, nous installons et reparons aussi bien les chauffe-eau a gaz qu'electriques, ainsi que les ballons et pompes a chaleur."}
+        ]
+      },
+      "reformas-de-banos": {
+        "title": "Renovation de Salles de Bain et Cuisines",
+        "shortDesc": "Renovations completes de salles de bain et cuisines avec design personnalise, plomberie integrale et finitions de premiere qualite.",
+        "description": "Nous transformons votre salle de bain ou cuisine avec des renovations integrales couvrant depuis la conception initiale jusqu'aux dernieres finitions. Chez Fontaneria Martos, nous prenons en charge toute la partie plomberie et coordonnons les autres corps de metier pour vous offrir un service cles en main.\n\nNos renovations comprennent : demontage de l'ancienne installation, nouveau reseau de plomberie, impermeabilisation, installation des sanitaires, robinetterie, receveur de douche ou baignoire, meubles de salle de bain, carrelage et sols.\n\nNous vous aidons a choisir les materiaux et vous conseillons sur les meilleures options selon votre budget et vos gouts. Nous travaillons avec les meilleures marques : Roca, Grohe, Hansgrohe, Geberit et plus.",
+        "benefits": ["Service cles en main : design, plomberie et finitions", "Remplacement baignoire par douche accessible", "Materiaux de grandes marques (Roca, Grohe, Hansgrohe)", "Impermeabilisation professionnelle garantie", "Delais d'execution definis et respectes"],
+        "process": [
+          {"step": 1, "title": "Visite et design personnalise", "desc": "Nous prenons les mesures, ecoutons vos preferences et proposons un design adapte a votre espace et budget."},
+          {"step": 2, "title": "Devis ferme", "desc": "Detail de tous les travaux, materiaux et delais. Sans surprises."},
+          {"step": 3, "title": "Execution de la renovation", "desc": "Nous realisons tous les travaux de plomberie, carrelage, sols et finitions avec nettoyage quotidien."},
+          {"step": 4, "title": "Remise et garantie", "desc": "Nous passons en revue chaque detail ensemble et vous remettons la garantie ecrite pour tous les travaux."}
+        ],
+        "faq": [
+          {"q": "Combien de temps dure une renovation complete de salle de bain ?", "a": "Une renovation complete dure generalement entre 5 et 10 jours ouvrables. Les renovations partielles peuvent etre realisees en 2-3 jours."},
+          {"q": "Puis-je utiliser la salle de bain pendant la renovation ?", "a": "Nous essayons de minimiser les desagrements. Si vous n'avez qu'une salle de bain, nous organisons le travail pour que vous puissiez l'utiliser en fin de journee."},
+          {"q": "Vous occupez-vous aussi du carrelage et des sols ?", "a": "Oui, nous offrons un service complet incluant carrelage, sols, peinture et toutes les finitions necessaires."},
+          {"q": "Faites-vous aussi des renovations de cuisines ?", "a": "Oui, nous realisons des renovations integrales de cuisines incluant toute la plomberie, evacuations et raccordements d'electromenagers."}
+        ]
+      }
+    }
+  },
+  "whyChooseUs": {
+    "title": "Pourquoi Choisir Fontaneria Martos ?",
+    "subtitle": "Plus de 20 ans de reference en plomberie professionnelle a Alicante",
+    "items": [
+      {"title": "Professionnels Certifies", "desc": "Tous nos plombiers possedent la licence d'installateur autorise et une assurance responsabilite civile. Formation continue et certifications a jour."},
+      {"title": "Service Rapide", "desc": "Reponse immediate pour les urgences 24h/24. En situation normale, nous intervenons sous 24 heures."},
+      {"title": "Garantie de Satisfaction", "desc": "Garantie ecrite sur tous nos travaux. Nous utilisons des materiaux de grandes marques et garantissons des resultats parfaits."},
+      {"title": "Devis Sans Engagement", "desc": "Devis gratuits et transparents. Sans surprises ni couts caches. Nous expliquons chaque detail avant de commencer."}
+    ]
+  },
+  "stats": {
+    "years": "Annees d'Experience",
+    "projects": "Travaux Realises",
+    "satisfaction": "Clients Satisfaits",
+    "emergency": "Service d'Urgence"
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "subtitle": "La satisfaction de nos clients est notre meilleure garantie",
+    "viewAll": "Voir tous les avis"
+  },
+  "coverage": {
+    "title": "Zone de Couverture",
+    "subtitle": "Nous offrons nos services de plomberie a Sant Vicent del Raspeig et dans toute la region de l'Alacanti, incluant Alicante, Mutxamel, San Juan, El Campello et environs."
+  },
+  "cta": {
+    "homeTitle": "Besoin d'un Plombier de Confiance ?",
+    "homeDesc": "Contactez-nous aujourd'hui pour un devis sans engagement. Nous intervenons en urgence 24h/24.",
+    "contactNow": "Contacter Maintenant",
+    "requestQuote": "Demander un Devis"
+  },
+  "about": {
+    "pageTitle": "A Propos",
+    "pageSubtitle": "Plus de deux decennies d'experience soutiennent notre engagement envers la qualite et la satisfaction client.",
+    "historyTitle": "Notre Histoire",
+    "historyP1": "Fontaneria Martos est nee en 2003 a Sant Vicent del Raspeig, quand Antonio Martos a decide de fonder sa propre entreprise de plomberie apres plus d'une decennie dans le secteur. Son objectif etait clair : offrir un service de plomberie professionnel, honnete et proche de ses voisins.",
+    "historyP2": "Ce qui a commence comme une petite entreprise familiale est devenu l'une des entreprises de plomberie de reference dans la region de l'Alacanti. Aujourd'hui, notre equipe de professionnels qualifies sert des milliers de clients chaque annee.",
+    "historyP3": "Au fil de ces 20 annees et plus, nous avons maintenu les valeurs qui nous definissent : travail bien fait, prix justes et transparents, et attention personnelle pour chaque client. Nous sommes fiers que la majorite de nos nouveaux clients viennent par recommandation.",
+    "yearsExperience": "Annees d'Experience",
+    "missionTitle": "Notre Mission",
+    "missionText": "Etre l'entreprise de plomberie de reference a Alicante, offrant des solutions professionnelles, rapides et durables qui depassent les attentes de nos clients.",
+    "teamTitle": "Notre Equipe",
+    "teamSubtitle": "Professionnels qualifies et engages pour l'excellence",
+    "team": [
+      {"name": "Antonio Martos", "role": "Fondateur et Directeur Technique", "desc": "Avec plus de 25 ans d'experience dans le secteur, Antonio a fonde Fontaneria Martos avec la vision d'offrir un service professionnel et honnete."},
+      {"name": "Miguel Angel Martos", "role": "Chef d'Equipe", "desc": "Specialiste des installations et renovations completes. Miguel Angel dirige les projets les plus complexes avec precision et efficacite."},
+      {"name": "Carlos Hernandez", "role": "Technicien d'Urgence", "desc": "Disponible 24h/24 pour toute urgence de plomberie. Carlos est responsable de notre service de reponse rapide."}
+    ],
+    "valuesTitle": "Nos Valeurs",
+    "valuesSubtitle": "Les principes qui guident chaque travail que nous realisons",
+    "values": [
+      {"title": "Professionnalisme", "desc": "Chaque travail respecte les plus hauts standards de qualite. Nos plombiers sont certifies et en formation continue."},
+      {"title": "Engagement", "desc": "Nous nous engageons aupres de chaque client comme s'il etait le seul. Votre satisfaction est notre priorite."},
+      {"title": "Proximite", "desc": "Nous sommes une equipe locale qui connait les besoins de nos voisins. Service personnel et accessible."},
+      {"title": "Garantie", "desc": "Tous nos travaux incluent une garantie ecrite. Materiaux de premiere qualite de marques reconnues."}
+    ],
+    "certsTitle": "Certifications et Garanties",
+    "certsSubtitle": "Professionnalisme accredite et soutenu",
+    "certs": [
+      {"title": "Installateur Autorise", "desc": "Entreprise enregistree comme installateur autorise dans la Communaute Valencienne. Licence professionnelle en cours de validite."},
+      {"title": "Assurance Responsabilite Civile", "desc": "Assurance responsabilite civile couvrant tous nos travaux, pour votre totale tranquillite."},
+      {"title": "Garantie Ecrite", "desc": "Tous nos travaux incluent une garantie ecrite. Materiaux avec garantie du fabricant."}
+    ]
+  },
+  "projects": {
+    "pageTitle": "Nos Projets",
+    "pageSubtitle": "Decouvrez certains des travaux que nous avons realises. Chaque projet reflete notre dedication a la qualite.",
+    "all": "Tous",
+    "challenge": "Le Defi",
+    "solution": "La Solution",
+    "result": "Le Resultat",
+    "description": "Description du Projet",
+    "specs": "Fiche Technique",
+    "photo": "Photo",
+    "similarProject": "Projet Similaire ? Contactez-nous",
+    "ctaTitle": "Vous Avez un Projet en Tete ?",
+    "ctaDesc": "Dites-nous ce dont vous avez besoin et nous preparerons un devis personnalise sans engagement."
+  },
+  "reviews": {
+    "pageTitle": "Avis Clients",
+    "pageSubtitle": "L'avis de nos clients est notre meilleure carte de visite.",
+    "average": "Note moyenne de nos clients",
+    "viewGoogle": "Voir sur Google Reviews",
+    "reviewCount": "avis",
+    "ctaTitle": "Vous Voulez Etre Notre Prochain Client Satisfait ?",
+    "ctaDesc": "Contactez-nous et decouvrez pourquoi nos clients nous recommandent."
+  },
+  "faqPage": {
+    "pageTitle": "Questions Frequentes",
+    "pageSubtitle": "Trouvez les reponses aux questions les plus courantes sur nos services de plomberie.",
+    "search": "Rechercher des questions...",
+    "all": "Toutes",
+    "noResults": "Aucun resultat trouve pour votre recherche.",
+    "ctaTitle": "Vous ne Trouvez Pas ce que Vous Cherchez ?",
+    "ctaDesc": "Contactez-nous directement et nous repondrons a toutes vos questions sans engagement."
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageSubtitle": "Nous sommes la pour vous aider. Demandez un devis sans engagement ou posez-nous vos questions.",
+    "formTitle": "Envoyez-nous un Message",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom complet",
+    "email": "Email",
+    "emailPlaceholder": "votre@email.com",
+    "phone": "Telephone",
+    "phonePlaceholder": "+34 600 000 000",
+    "subject": "Sujet",
+    "selectSubject": "Selectionnez un sujet",
+    "subjects": {
+      "quote": "Demander un Devis",
+      "emergency": "Urgence",
+      "repair": "Reparation",
+      "installation": "Installation",
+      "renovation": "Renovation",
+      "other": "Autre"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Decrivez votre demande ou les travaux dont vous avez besoin...",
+    "privacy": "J'ai lu et j'accepte la",
+    "privacyLink": "Politique de Confidentialite",
+    "send": "Envoyer le Message",
+    "successTitle": "Message Envoye",
+    "successText": "Merci de nous avoir contactes. Nous vous repondrons dans les plus brefs delais, generalement sous 24 heures.",
+    "contactDetails": "Coordonnees",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "weekdays": "Lundi a Vendredi : 08:00 - 19:00",
+    "saturday": "Samedis : 09:00 - 14:00",
+    "emergencyHours": "Urgences : 24 heures",
+    "whatsapp": "WhatsApp Direct",
+    "required": "obligatoire",
+    "errors": {
+      "nameRequired": "Le nom est obligatoire",
+      "emailRequired": "L'email est obligatoire",
+      "emailInvalid": "Veuillez entrer un email valide",
+      "subjectRequired": "Veuillez selectionner un sujet",
+      "messageRequired": "Le message est obligatoire",
+      "messageMin": "Le message doit contenir au moins 10 caracteres",
+      "privacyRequired": "Vous devez accepter la politique de confidentialite"
+    }
+  },
+  "footer": {
+    "description": "Plus de 20 ans de services de plomberie professionnels a Sant Vicent del Raspeig et dans toute la province d'Alicante. Votre plombier de confiance.",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "contact": "Contact",
+    "copyright": "(c) 2025 Fontaneria Martos. Tous droits reserves.",
+    "privacy": "Politique de Confidentialite",
+    "terms": "Conditions Generales"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "viewAll": "Voir tout",
+    "back": "Retour",
+    "home": "Accueil"
+  }
+}

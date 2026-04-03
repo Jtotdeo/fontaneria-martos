@@ -2,9 +2,18 @@
 
 import { useState } from "react";
 import { useForm } from "react-hook-form";
+import { useDictionary } from "@/components/DictionaryProvider";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import AnimatedSection from "@/components/ui/AnimatedSection";
-import { Phone, Mail, MapPin, Clock, MessageCircle, Send, CheckCircle } from "lucide-react";
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Clock,
+  MessageCircle,
+  Send,
+  CheckCircle,
+} from "lucide-react";
 
 interface ContactForm {
   name: string;
@@ -16,6 +25,8 @@ interface ContactForm {
 }
 
 export default function ContactoPage() {
+  const { dict, locale } = useDictionary();
+  const t = dict.contact;
   const [submitted, setSubmitted] = useState(false);
   const {
     register,
@@ -33,16 +44,15 @@ export default function ContactoPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
-              { label: "Inicio", href: "/" },
-              { label: "Contacto" },
+              { label: dict.common.home, href: `/${locale}` },
+              { label: t.pageTitle },
             ]}
           />
           <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-            Contacto
+            {t.pageTitle}
           </h1>
           <p className="text-primary-100 text-lg max-w-2xl">
-            Estamos aquí para ayudarle. Solicite un presupuesto sin compromiso o
-            consúltenos cualquier duda.
+            {t.pageSubtitle}
           </p>
         </div>
       </section>
@@ -54,19 +64,16 @@ export default function ContactoPage() {
             <div className="lg:col-span-2">
               <AnimatedSection>
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">
-                  Envíenos un Mensaje
+                  {t.formTitle}
                 </h2>
 
                 {submitted ? (
                   <div className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center">
                     <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
                     <h3 className="text-xl font-bold text-gray-900 mb-2">
-                      Mensaje Enviado
+                      {t.successTitle}
                     </h3>
-                    <p className="text-gray-600">
-                      Gracias por contactar con nosotros. Le responderemos lo
-                      antes posible, normalmente en menos de 24 horas.
-                    </p>
+                    <p className="text-gray-600">{t.successText}</p>
                   </div>
                 ) : (
                   <form
@@ -76,14 +83,14 @@ export default function ContactoPage() {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
-                          Nombre *
+                          {t.name} *
                         </label>
                         <input
                           {...register("name", {
-                            required: "El nombre es obligatorio",
+                            required: t.errors.nameRequired,
                           })}
                           className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-all"
-                          placeholder="Su nombre completo"
+                          placeholder={t.namePlaceholder}
                         />
                         {errors.name && (
                           <p className="text-red-500 text-sm mt-1">
@@ -93,19 +100,19 @@ export default function ContactoPage() {
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
-                          Email *
+                          {t.email} *
                         </label>
                         <input
                           type="email"
                           {...register("email", {
-                            required: "El email es obligatorio",
+                            required: t.errors.emailRequired,
                             pattern: {
                               value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                              message: "Introduzca un email válido",
+                              message: t.errors.emailInvalid,
                             },
                           })}
                           className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-all"
-                          placeholder="su@email.com"
+                          placeholder={t.emailPlaceholder}
                         />
                         {errors.email && (
                           <p className="text-red-500 text-sm mt-1">
@@ -118,36 +125,42 @@ export default function ContactoPage() {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
-                          Teléfono
+                          {t.phone}
                         </label>
                         <input
                           type="tel"
                           {...register("phone")}
                           className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-all"
-                          placeholder="+34 600 000 000"
+                          placeholder={t.phonePlaceholder}
                         />
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
-                          Asunto *
+                          {t.subject} *
                         </label>
                         <select
                           {...register("subject", {
-                            required: "Seleccione un asunto",
+                            required: t.errors.subjectRequired,
                           })}
                           className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-all"
                         >
-                          <option value="">Seleccione un asunto</option>
+                          <option value="">{t.selectSubject}</option>
                           <option value="presupuesto">
-                            Solicitar Presupuesto
+                            {t.subjects.quote}
                           </option>
                           <option value="urgencia">
-                            Urgencia / Emergencia
+                            {t.subjects.emergency}
                           </option>
-                          <option value="reparacion">Reparación</option>
-                          <option value="instalacion">Instalación</option>
-                          <option value="reforma">Reforma</option>
-                          <option value="otro">Otro</option>
+                          <option value="reparacion">
+                            {t.subjects.repair}
+                          </option>
+                          <option value="instalacion">
+                            {t.subjects.installation}
+                          </option>
+                          <option value="reforma">
+                            {t.subjects.renovation}
+                          </option>
+                          <option value="otro">{t.subjects.other}</option>
                         </select>
                         {errors.subject && (
                           <p className="text-red-500 text-sm mt-1">
@@ -159,19 +172,19 @@ export default function ContactoPage() {
 
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
-                        Mensaje *
+                        {t.message} *
                       </label>
                       <textarea
                         {...register("message", {
-                          required: "El mensaje es obligatorio",
+                          required: t.errors.messageRequired,
                           minLength: {
                             value: 10,
-                            message: "El mensaje debe tener al menos 10 caracteres",
+                            message: t.errors.messageMin,
                           },
                         })}
                         rows={6}
                         className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-all resize-none"
-                        placeholder="Describa su consulta o el trabajo que necesita..."
+                        placeholder={t.messagePlaceholder}
                       />
                       {errors.message && (
                         <p className="text-red-500 text-sm mt-1">
@@ -185,17 +198,17 @@ export default function ContactoPage() {
                         <input
                           type="checkbox"
                           {...register("privacy", {
-                            required: "Debe aceptar la política de privacidad",
+                            required: t.errors.privacyRequired,
                           })}
                           className="mt-1"
                         />
                         <span className="text-sm text-gray-600">
-                          He leído y acepto la{" "}
+                          {t.privacy}{" "}
                           <a
-                            href="/privacy"
+                            href={`/${locale}/privacy`}
                             className="text-primary-600 underline"
                           >
-                            Política de Privacidad
+                            {t.privacyLink}
                           </a>{" "}
                           *
                         </span>
@@ -212,7 +225,7 @@ export default function ContactoPage() {
                       className="w-full md:w-auto bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-xl font-semibold transition-colors flex items-center justify-center gap-2"
                     >
                       <Send className="w-5 h-5" />
-                      Enviar Mensaje
+                      {t.send}
                     </button>
                   </form>
                 )}
@@ -224,7 +237,7 @@ export default function ContactoPage() {
               <AnimatedSection delay={0.2}>
                 <div className="bg-gray-50 rounded-2xl p-8 space-y-8">
                   <h3 className="text-xl font-bold text-gray-900">
-                    Datos de Contacto
+                    {t.contactDetails}
                   </h3>
 
                   <div className="space-y-6">
@@ -233,7 +246,9 @@ export default function ContactoPage() {
                         <MapPin className="w-5 h-5 text-primary-600" />
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900">Dirección</p>
+                        <p className="font-medium text-gray-900">
+                          {t.address}
+                        </p>
                         <p className="text-gray-600 text-sm">
                           C. Vicente Savall Pascual, 1<br />
                           03690 Sant Vicent del Raspeig
@@ -248,7 +263,9 @@ export default function ContactoPage() {
                         <Phone className="w-5 h-5 text-primary-600" />
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900">Teléfono</p>
+                        <p className="font-medium text-gray-900">
+                          {t.phone}
+                        </p>
                         <a
                           href="tel:+34966123456"
                           className="text-primary-600 hover:underline"
@@ -263,7 +280,9 @@ export default function ContactoPage() {
                         <Mail className="w-5 h-5 text-primary-600" />
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900">Email</p>
+                        <p className="font-medium text-gray-900">
+                          {t.email}
+                        </p>
                         <a
                           href="mailto:info@fontaneriamartos.es"
                           className="text-primary-600 hover:underline"
@@ -278,14 +297,16 @@ export default function ContactoPage() {
                         <Clock className="w-5 h-5 text-primary-600" />
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900">Horario</p>
+                        <p className="font-medium text-gray-900">
+                          {t.hours}
+                        </p>
                         <p className="text-gray-600 text-sm">
-                          Lunes a Viernes: 08:00 - 19:00
+                          {t.weekdays}
                           <br />
-                          Sábados: 09:00 - 14:00
+                          {t.saturday}
                           <br />
                           <span className="text-primary-600 font-medium">
-                            Urgencias: 24 horas
+                            {t.emergencyHours}
                           </span>
                         </p>
                       </div>
@@ -299,12 +320,12 @@ export default function ContactoPage() {
                     className="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-semibold transition-colors"
                   >
                     <MessageCircle className="w-5 h-5" />
-                    WhatsApp Directo
+                    {t.whatsapp}
                   </a>
                 </div>
               </AnimatedSection>
 
-              {/* Google Maps Placeholder */}
+              {/* Google Maps */}
               <AnimatedSection delay={0.3}>
                 <div className="mt-8 bg-gray-200 rounded-2xl h-64 flex items-center justify-center overflow-hidden">
                   <iframe

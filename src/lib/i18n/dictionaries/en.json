@@ -1,0 +1,275 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "requestQuote": "Request a Quote",
+    "callUs": "Call Us"
+  },
+  "hero": {
+    "title": "Trusted Plumbers in Alicante",
+    "subtitle": "Over 20 years solving plumbing problems in Sant Vicent del Raspeig and throughout the province of Alicante. Professional, fast and guaranteed service.",
+    "cta": "Get a Free Quote",
+    "secondaryCta": "View Our Services"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional plumbing solutions for every need",
+    "learnMore": "Learn more",
+    "benefits": "Benefits",
+    "process": "Our Work Process",
+    "faq": "Frequently Asked Questions",
+    "related": "Related Services",
+    "requestQuote": "Request a Quote",
+    "callPrice": "Call: +34 966 123 456",
+    "items": {
+      "reparacion-de-fugas": {
+        "title": "Leak Repair",
+        "shortDesc": "We detect and repair water leaks in pipes, taps and plumbing systems using advanced technology with minimal disruption.",
+        "description": "Water leaks are one of the most common and potentially damaging problems any home or commercial property can suffer. An undetected leak can cause serious structural damage, damp and mould, and a considerable increase in your water bill. At Fontaneria Martos we have over 15 years of experience detecting and repairing all types of leaks in Sant Vicent del Raspeig and surrounding areas.\n\nWe use state-of-the-art detection equipment, including thermal imaging cameras, acoustic correlation equipment and tracer gas, allowing us to precisely locate the exact point of the leak without unnecessary work.\n\nOur team is prepared to deal with leaks in embedded pipes, downpipes, main connections, heating circuits, irrigation systems and drainage networks. We work in private homes, residential communities, commercial premises and industrial units.",
+        "benefits": ["Precise detection with thermal cameras and acoustic equipment", "Repair with minimal disruption thanks to non-invasive techniques", "24-hour emergency service with response in under 45 minutes", "Fixed quote with no surprises or additional costs", "2-year guarantee on all repairs carried out"],
+        "process": [
+          {"step": 1, "title": "Inspection and diagnosis", "desc": "We carry out a complete inspection of the plumbing system using advanced detection equipment to locate the exact source of the leak."},
+          {"step": 2, "title": "Detailed quote", "desc": "We present you with a fixed quote with all available repair options."},
+          {"step": 3, "title": "Professional repair", "desc": "We carry out the repair using the most appropriate techniques, prioritising less invasive solutions."},
+          {"step": 4, "title": "Verification and guarantee", "desc": "We verify the repair is watertight through pressure tests and provide a written guarantee certificate."}
+        ],
+        "faq": [
+          {"q": "How do I know if I have a hidden leak?", "a": "The most common signs are damp patches on walls or ceilings, an unexplained increase in your water bill, the sound of running water when all taps are closed, or your water meter running without apparent consumption."},
+          {"q": "Do you need to break the wall to repair an embedded leak?", "a": "Not always. We have non-invasive repair techniques such as pipe relining and specialised welding."},
+          {"q": "How much does it cost to repair a water leak?", "a": "The cost depends on the type of leak, its location and complexity. A simple repair can start from 60 euros, while an embedded leak can range between 150 and 500 euros."},
+          {"q": "Do you attend water leaks at weekends?", "a": "Yes, we offer a 24-hour emergency service, 7 days a week, including weekends and bank holidays."}
+        ]
+      },
+      "instalacion-de-fontaneria": {
+        "title": "Plumbing Installation",
+        "shortDesc": "We carry out complete plumbing installations for new builds and renovations, using approved materials and complying with all current regulations.",
+        "description": "Plumbing installation is the foundation of any building and requires professional design and execution to guarantee optimal performance for decades. At Fontaneria Martos we specialise in complete installations for new-build homes, full renovations, commercial premises and residential communities.\n\nOur service covers everything from pipe layout design to final installation of sanitary ware and taps, including the main connection, hot and cold water distribution, drainage and connection to the sewage network.\n\nWe exclusively use first-quality approved materials: polypropylene, multilayer, copper and PVC pipes. All our installations comply with the Technical Building Code.",
+        "benefits": ["Personalised pipe layout design", "Approved materials from top brands", "Compliance with the Technical Building Code", "Permits and certificates processing included", "Coordination with other trades for full renovations"],
+        "process": [
+          {"step": 1, "title": "Technical visit and design", "desc": "We evaluate the space, take measurements and design the optimal pipe layout."},
+          {"step": 2, "title": "Detailed quote", "desc": "Complete breakdown of materials, labour and execution timelines."},
+          {"step": 3, "title": "Installation execution", "desc": "We install the entire plumbing network with first-quality materials."},
+          {"step": 4, "title": "Testing and certification", "desc": "We carry out pressure and watertightness tests, and issue the corresponding certificate."}
+        ],
+        "faq": [
+          {"q": "What materials do you use for pipes?", "a": "We work with polypropylene (PPR), multilayer and copper for water, and PVC for drainage. We select the most suitable material for each installation."},
+          {"q": "Do you handle the necessary permits?", "a": "Yes, we process all necessary permits and certificates, including the plumbing certificate for supply connection."},
+          {"q": "How long does a complete installation take?", "a": "It depends on the project size. A standard home can be ready in 3-5 working days."}
+        ]
+      },
+      "desatascos": {
+        "title": "Drain Unblocking and Pipe Cleaning",
+        "shortDesc": "Professional drain unblocking service with high-pressure equipment. We solve blockages in pipes, downpipes and drainage networks.",
+        "description": "Blocked pipes are one of the most annoying and frequent incidents in any home or business. A blockage can cause bad odours, overflows and even water damage if not resolved in time. At Fontaneria Martos we have professional unblocking equipment to resolve any type of obstruction quickly and definitively.\n\nWe have mechanical and high-pressure unblocking machinery (up to 300 bar) capable of eliminating the most resistant obstructions. We also use CCTV inspection cameras to precisely diagnose the cause and location of the blockage.\n\nWe unblock kitchen sinks, washbasins, showers, bathtubs, toilets, communal downpipes and general drainage networks.",
+        "benefits": ["High-pressure machinery up to 300 bar", "CCTV inspection camera for precise diagnosis", "24-hour emergency service available", "Definitive solution, not temporary fixes", "Preventive cleaning to avoid future blockages"],
+        "process": [
+          {"step": 1, "title": "Camera diagnosis", "desc": "We inspect the pipe with CCTV camera to identify the exact cause of the blockage."},
+          {"step": 2, "title": "Professional unblocking", "desc": "We apply the most suitable technique according to the type of obstruction."},
+          {"step": 3, "title": "Complete cleaning", "desc": "We clean the entire pipe to prevent future blockages."},
+          {"step": 4, "title": "Final verification", "desc": "We check with camera that the pipe is completely clear."}
+        ],
+        "faq": [
+          {"q": "Do you attend drain emergencies?", "a": "Yes, we have a 24-hour emergency service for serious blockages that could cause overflows or water damage."},
+          {"q": "Can you unblock communal downpipes?", "a": "Yes, we have the experience and appropriate equipment to unblock communal downpipes and drainage networks."},
+          {"q": "How can I prevent blockages?", "a": "We recommend not pouring fats or solid waste down the drain, using protective grilles and carrying out annual preventive cleaning."}
+        ]
+      },
+      "calentadores-y-calderas": {
+        "title": "Water Heaters and Boilers",
+        "shortDesc": "Installation, repair and maintenance of water heaters and gas boilers from all brands.",
+        "description": "The correct functioning of your water heater or boiler is essential for your daily comfort. At Fontaneria Martos we offer a complete service covering the installation of new equipment, fault repair and preventive maintenance to guarantee maximum efficiency and safety.\n\nWe work with all market brands: Junkers, Vaillant, Baxi, Saunier Duval, Ferroli and more. Our technicians are certified to work with gas installations and receive continuous training on the latest technologies.\n\nWe offer annual maintenance contracts that include complete inspection, circuit cleaning and parameter adjustment to optimise energy consumption.",
+        "benefits": ["Certified technicians for gas installations", "Service for all brands and models", "Annual preventive maintenance contracts", "Original spare parts", "Energy efficiency advice"],
+        "process": [
+          {"step": 1, "title": "Equipment diagnosis", "desc": "We review the complete state of the heater or boiler to identify the problem."},
+          {"step": 2, "title": "Repair quote", "desc": "We inform you of the cost and advise whether it's worth repairing or replacing."},
+          {"step": 3, "title": "Repair or installation", "desc": "We carry out the work with original parts following manufacturer specifications."},
+          {"step": 4, "title": "Start-up and adjustment", "desc": "We verify correct operation and adjust parameters for maximum efficiency."}
+        ],
+        "faq": [
+          {"q": "How often should the boiler be serviced?", "a": "An annual service is recommended to ensure safety and energy efficiency. It is also required by regulations."},
+          {"q": "When should I replace my water heater?", "a": "If it's over 10-15 years old, has frequent breakdowns or consumption has increased notably, it's advisable to replace it with a more efficient model."},
+          {"q": "Do you work with electric water heaters?", "a": "Yes, we install and repair both gas and electric heaters, as well as storage tanks and heat pumps."}
+        ]
+      },
+      "reformas-de-banos": {
+        "title": "Bathroom and Kitchen Renovations",
+        "shortDesc": "Complete bathroom and kitchen renovations with personalised design, full plumbing and first-quality finishes.",
+        "description": "We transform your bathroom or kitchen with complete renovations covering everything from initial design to final finishes. At Fontaneria Martos we handle all the plumbing and coordinate other trades to offer you a turnkey service.\n\nOur renovations include: removal of old installation, new plumbing network, waterproofing, installation of sanitary ware, taps, shower tray or bathtub, bathroom furniture, tiling and flooring. All with selected materials and first-quality finishes.\n\nWe help you choose materials and advise on the best options according to your budget and taste. We work with the best brands: Roca, Grohe, Hansgrohe, Geberit and more.",
+        "benefits": ["Turnkey service: design, plumbing and finishes", "Bathtub to accessible shower tray conversion", "Top brand materials (Roca, Grohe, Hansgrohe)", "Professional waterproofing guaranteed", "Defined execution timelines, always met"],
+        "process": [
+          {"step": 1, "title": "Visit and personalised design", "desc": "We take measurements, listen to your preferences and propose a design adapted to your space and budget."},
+          {"step": 2, "title": "Fixed quote", "desc": "Detailed breakdown of all works, materials and timelines. No surprises."},
+          {"step": 3, "title": "Renovation execution", "desc": "We carry out all plumbing, tiling, flooring and finishing work with daily cleaning."},
+          {"step": 4, "title": "Handover and guarantee", "desc": "We review every detail together and provide written guarantee for all works."}
+        ],
+        "faq": [
+          {"q": "How long does a complete bathroom renovation take?", "a": "A complete renovation usually takes between 5 and 10 working days. Partial renovations can be done in 2-3 days."},
+          {"q": "Can I use the bathroom during the renovation?", "a": "We try to minimise disruption. If you only have one bathroom, we organise the work so you can use it at the end of each day."},
+          {"q": "Do you also handle tiling and flooring?", "a": "Yes, we offer a comprehensive service that includes tiling, flooring, painting and all necessary finishes."},
+          {"q": "Do you renovate kitchens too?", "a": "Yes, we carry out complete kitchen renovations including all plumbing, drainage and appliance connections."}
+        ]
+      }
+    }
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Fontaneria Martos?",
+    "subtitle": "Over 20 years as a benchmark in professional plumbing in Alicante",
+    "items": [
+      {"title": "Certified Professionals", "desc": "All our plumbers hold authorised installer licences and civil liability insurance. Continuous training and updated certifications."},
+      {"title": "Fast Service", "desc": "Immediate response for 24-hour emergencies. In normal situations, we attend within 24 hours."},
+      {"title": "Satisfaction Guarantee", "desc": "Written guarantee on all our work. We use top brand materials and ensure perfect results."},
+      {"title": "No-Obligation Quote", "desc": "Free and transparent quotes. No surprises or hidden costs. We explain every detail before starting."}
+    ]
+  },
+  "stats": {
+    "years": "Years of Experience",
+    "projects": "Jobs Completed",
+    "satisfaction": "Satisfied Customers",
+    "emergency": "Emergency Service"
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Our customers' satisfaction is our best guarantee",
+    "viewAll": "View all reviews"
+  },
+  "coverage": {
+    "title": "Coverage Area",
+    "subtitle": "We offer our plumbing services in Sant Vicent del Raspeig and the entire l'Alacanti region, including Alicante, Mutxamel, San Juan, El Campello and surrounding areas."
+  },
+  "cta": {
+    "homeTitle": "Need a Reliable Plumber?",
+    "homeDesc": "Contact us today for a no-obligation quote. We attend emergencies 24 hours a day.",
+    "contactNow": "Contact Now",
+    "requestQuote": "Request a Quote"
+  },
+  "about": {
+    "pageTitle": "About Us",
+    "pageSubtitle": "More than two decades of experience back our commitment to quality and customer satisfaction.",
+    "historyTitle": "Our History",
+    "historyP1": "Fontaneria Martos was founded in 2003 in Sant Vicent del Raspeig, when Antonio Martos decided to start his own plumbing company after over a decade working in the sector. His goal was clear: to offer a professional, honest and approachable plumbing service to his neighbours.",
+    "historyP2": "What began as a small family business has grown to become one of the leading plumbing companies in the l'Alacanti region. Today, our team of qualified professionals serves thousands of customers each year, from private homes to residential communities and businesses.",
+    "historyP3": "Throughout these 20+ years, we have maintained the values that define us: quality workmanship, fair and transparent pricing, and personal attention to every customer. We are proud that most of our new customers come recommended by other satisfied clients.",
+    "yearsExperience": "Years of Experience",
+    "missionTitle": "Our Mission",
+    "missionText": "To be the leading plumbing company in Alicante, offering professional, fast and lasting solutions that exceed our customers' expectations.",
+    "teamTitle": "Our Team",
+    "teamSubtitle": "Qualified professionals committed to excellence",
+    "team": [
+      {"name": "Antonio Martos", "role": "Founder and Technical Director", "desc": "With over 25 years of experience in the sector, Antonio founded Fontaneria Martos with the vision of offering a professional and honest service."},
+      {"name": "Miguel Angel Martos", "role": "Team Leader", "desc": "Specialist in installations and complete renovations. Miguel Angel leads the most complex projects with precision and efficiency."},
+      {"name": "Carlos Hernandez", "role": "Emergency Technician", "desc": "Available 24 hours to attend any plumbing emergency. Carlos is responsible for our rapid response service."}
+    ],
+    "valuesTitle": "Our Values",
+    "valuesSubtitle": "The principles that guide every job we do",
+    "values": [
+      {"title": "Professionalism", "desc": "Every job meets the highest quality standards. Our plumbers are certified and in continuous training."},
+      {"title": "Commitment", "desc": "We commit to every customer as if they were the only one. Your satisfaction is our priority."},
+      {"title": "Approachability", "desc": "We are a local team that understands our neighbours' needs. Personal and approachable service."},
+      {"title": "Guarantee", "desc": "All our work includes a written guarantee. First-quality materials from recognised brands."}
+    ],
+    "certsTitle": "Certifications and Guarantees",
+    "certsSubtitle": "Accredited and backed professionalism",
+    "certs": [
+      {"title": "Authorised Installer", "desc": "Company registered as an authorised installer in the Valencian Community. Current professional licence."},
+      {"title": "Civil Liability Insurance", "desc": "Civil liability insurance covering all our work, for your complete peace of mind."},
+      {"title": "Written Guarantee", "desc": "All our work includes a written guarantee. Materials with manufacturer's warranty."}
+    ]
+  },
+  "projects": {
+    "pageTitle": "Our Projects",
+    "pageSubtitle": "Discover some of the work we have done. Each project reflects our dedication to quality.",
+    "all": "All",
+    "challenge": "The Challenge",
+    "solution": "The Solution",
+    "result": "The Result",
+    "description": "Project Description",
+    "specs": "Technical Details",
+    "photo": "Photo",
+    "similarProject": "Similar Project? Contact Us",
+    "ctaTitle": "Have a Project in Mind?",
+    "ctaDesc": "Tell us what you need and we'll prepare a personalised no-obligation quote."
+  },
+  "reviews": {
+    "pageTitle": "Customer Reviews",
+    "pageSubtitle": "Our customers' opinions are our best calling card.",
+    "average": "Average rating from our customers",
+    "viewGoogle": "View on Google Reviews",
+    "reviewCount": "reviews",
+    "ctaTitle": "Want to Be Our Next Satisfied Customer?",
+    "ctaDesc": "Contact us and discover why our customers recommend us."
+  },
+  "faqPage": {
+    "pageTitle": "Frequently Asked Questions",
+    "pageSubtitle": "Find answers to the most common questions about our plumbing services.",
+    "search": "Search questions...",
+    "all": "All",
+    "noResults": "No results found for your search.",
+    "ctaTitle": "Can't Find What You're Looking For?",
+    "ctaDesc": "Contact us directly and we'll resolve all your queries with no obligation."
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageSubtitle": "We're here to help. Request a no-obligation quote or ask us any question.",
+    "formTitle": "Send Us a Message",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+34 600 000 000",
+    "subject": "Subject",
+    "selectSubject": "Select a subject",
+    "subjects": {
+      "quote": "Request a Quote",
+      "emergency": "Emergency",
+      "repair": "Repair",
+      "installation": "Installation",
+      "renovation": "Renovation",
+      "other": "Other"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Describe your query or the work you need...",
+    "privacy": "I have read and accept the",
+    "privacyLink": "Privacy Policy",
+    "send": "Send Message",
+    "successTitle": "Message Sent",
+    "successText": "Thank you for contacting us. We will respond as soon as possible, usually within 24 hours.",
+    "contactDetails": "Contact Details",
+    "address": "Address",
+    "hours": "Opening Hours",
+    "weekdays": "Monday to Friday: 08:00 - 19:00",
+    "saturday": "Saturdays: 09:00 - 14:00",
+    "emergencyHours": "Emergencies: 24 hours",
+    "whatsapp": "WhatsApp Direct",
+    "required": "required",
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email",
+      "subjectRequired": "Please select a subject",
+      "messageRequired": "Message is required",
+      "messageMin": "Message must be at least 10 characters",
+      "privacyRequired": "You must accept the privacy policy"
+    }
+  },
+  "footer": {
+    "description": "Over 20 years providing professional plumbing services in Sant Vicent del Raspeig and throughout the province of Alicante. Your trusted plumber.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "copyright": "\u00a9 2025 Fontaneria Martos. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "back": "Back",
+    "home": "Home"
+  }
+}

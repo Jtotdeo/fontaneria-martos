@@ -2,27 +2,13 @@
 
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
+import { useDictionary } from "@/components/DictionaryProvider";
 
-interface HeroProps {
-  title: string;
-  subtitle: string;
-  ctaText: string;
-  ctaHref: string;
-  secondaryCtaText?: string;
-  secondaryCtaHref?: string;
-}
+export default function Hero() {
+  const { dict, locale } = useDictionary();
 
-export default function Hero({
-  title,
-  subtitle,
-  ctaText,
-  ctaHref,
-  secondaryCtaText,
-  secondaryCtaHref,
-}: HeroProps) {
   return (
     <section className="relative min-h-[600px] flex items-center bg-gradient-to-br from-primary-700 via-primary-800 to-primary-900 overflow-hidden">
-      {/* Pattern overlay */}
       <div
         className="absolute inset-0 opacity-10"
         style={{
@@ -31,7 +17,6 @@ export default function Hero({
           backgroundSize: "50px 50px",
         }}
       />
-
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -39,7 +24,7 @@ export default function Hero({
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight"
         >
-          {title}
+          {dict.hero.title}
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -47,7 +32,7 @@ export default function Hero({
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-lg md:text-xl text-primary-100 max-w-3xl mx-auto mb-10"
         >
-          {subtitle}
+          {dict.hero.subtitle}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -55,14 +40,12 @@ export default function Hero({
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Button variant="secondary" size="lg" href={ctaHref}>
-            {ctaText}
+          <Button variant="secondary" size="lg" href={`/${locale}/contacto`}>
+            {dict.hero.cta}
           </Button>
-          {secondaryCtaText && secondaryCtaHref && (
-            <Button variant="outline" size="lg" href={secondaryCtaHref} className="border-white text-white hover:bg-white/10">
-              {secondaryCtaText}
-            </Button>
-          )}
+          <Button variant="outline" size="lg" href={`/${locale}/servicios`} className="border-white text-white hover:bg-white/10">
+            {dict.hero.secondaryCta}
+          </Button>
         </motion.div>
       </div>
     </section>

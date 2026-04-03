@@ -2,13 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import { useInView } from "framer-motion";
-
-const stats = [
-  { value: 20, suffix: "+", label: "Años de Experiencia" },
-  { value: 3000, suffix: "+", label: "Trabajos Realizados" },
-  { value: 98, suffix: "%", label: "Clientes Satisfechos" },
-  { value: 24, suffix: "h", label: "Servicio de Urgencias" },
-];
+import { useDictionary } from "@/components/DictionaryProvider";
 
 function AnimatedCounter({ target, suffix }: { target: number; suffix: string }) {
   const [count, setCount] = useState(0);
@@ -42,6 +36,15 @@ function AnimatedCounter({ target, suffix }: { target: number; suffix: string })
 }
 
 export default function StatsSection() {
+  const { dict } = useDictionary();
+
+  const stats = [
+    { value: 20, suffix: "+", label: dict.stats.years },
+    { value: 3000, suffix: "+", label: dict.stats.projects },
+    { value: 98, suffix: "%", label: dict.stats.satisfaction },
+    { value: 24, suffix: "h", label: dict.stats.emergency },
+  ];
+
   return (
     <section className="bg-gray-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

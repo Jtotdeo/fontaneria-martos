@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useDictionary } from "@/components/DictionaryProvider";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import FAQAccordion from "@/components/ui/FAQAccordion";
@@ -9,17 +10,18 @@ import { faqItems } from "@/lib/data/faq";
 import { Search } from "lucide-react";
 
 export default function FAQPage() {
+  const { dict, locale } = useDictionary();
   const [search, setSearch] = useState("");
-  const [activeCategory, setActiveCategory] = useState("Todas");
+  const [activeCategory, setActiveCategory] = useState(dict.faqPage.all);
 
   const categories = [
-    "Todas",
+    dict.faqPage.all,
     ...Array.from(new Set(faqItems.map((f) => f.category))),
   ];
 
   const filtered = useMemo(() => {
     let items = faqItems;
-    if (activeCategory !== "Todas") {
+    if (activeCategory !== dict.faqPage.all) {
       items = items.filter((f) => f.category === activeCategory);
     }
     if (search.trim()) {
@@ -31,7 +33,7 @@ export default function FAQPage() {
       );
     }
     return items;
-  }, [search, activeCategory]);
+  }, [search, activeCategory, dict.faqPage.all]);
 
   return (
     <>
@@ -39,29 +41,28 @@ export default function FAQPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
-              { label: "Inicio", href: "/" },
-              { label: "Preguntas Frecuentes" },
+              { label: dict.common.home, href: `/${locale}` },
+              { label: dict.faqPage.pageTitle },
             ]}
           />
           <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-            Preguntas Frecuentes
+            {dict.faqPage.pageTitle}
           </h1>
           <p className="text-primary-100 text-lg max-w-2xl">
-            Encuentre respuestas a las preguntas más comunes sobre nuestros
-            servicios de fontanería.
+            {dict.faqPage.pageSubtitle}
           </p>
         </div>
       </section>
 
       <section className="py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Búsqueda */}
+          {/* Busqueda */}
           <AnimatedSection>
             <div className="relative mb-8">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
               <input
                 type="text"
-                placeholder="Buscar preguntas..."
+                placeholder={dict.faqPage.search}
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 className="w-full pl-12 pr-4 py-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-all"
@@ -69,7 +70,7 @@ export default function FAQPage() {
             </div>
           </AnimatedSection>
 
-          {/* Categorías */}
+          {/* Categorias */}
           <AnimatedSection delay={0.1}>
             <div className="flex flex-wrap gap-2 mb-10">
               {categories.map((cat) => (
@@ -94,7 +95,7 @@ export default function FAQPage() {
               <FAQAccordion items={filtered} />
             ) : (
               <div className="text-center py-12 text-gray-500">
-                <p>No se encontraron resultados para su búsqueda.</p>
+                <p>{dict.faqPage.noResults}</p>
               </div>
             )}
           </AnimatedSection>
@@ -102,10 +103,10 @@ export default function FAQPage() {
       </section>
 
       <CTABanner
-        title="¿No Encuentra lo que Busca?"
-        description="Contacte con nosotros directamente y resolveremos todas sus dudas sin compromiso."
-        buttonText="Contactar"
-        buttonHref="/contacto"
+        title={dict.faqPage.ctaTitle}
+        description={dict.faqPage.ctaDesc}
+        buttonText={dict.cta.contactNow}
+        buttonHref={`/${locale}/contacto`}
       />
     </>
   );

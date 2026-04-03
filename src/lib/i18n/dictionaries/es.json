@@ -1,0 +1,305 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "reviews": "Reseñas",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "requestQuote": "Pedir Presupuesto",
+    "callUs": "Llamar"
+  },
+  "hero": {
+    "title": "Fontaneros de Confianza en Alicante",
+    "subtitle": "Más de 20 años resolviendo problemas de fontanería en Sant Vicent del Raspeig y toda la provincia de Alicante. Servicio profesional, rápido y con garantía.",
+    "cta": "Pedir Presupuesto Gratis",
+    "secondaryCta": "Ver Nuestros Servicios"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones profesionales de fontanería para cada necesidad",
+    "learnMore": "Más información",
+    "benefits": "Ventajas",
+    "process": "Nuestro Proceso de Trabajo",
+    "faq": "Preguntas Frecuentes",
+    "related": "Servicios Relacionados",
+    "requestQuote": "Pedir Presupuesto",
+    "callPrice": "Llamar: +34 966 123 456",
+    "items": {
+      "reparacion-de-fugas": {
+        "title": "Reparación de Fugas",
+        "shortDesc": "Detectamos y reparamos fugas de agua en tuberías, grifos y sistemas de fontanería con tecnología avanzada y mínima obra.",
+        "description": "Las fugas de agua son uno de los problemas más comunes y potencialmente dañinos que puede sufrir cualquier vivienda o local comercial. Una fuga sin detectar puede provocar daños estructurales graves, aparición de humedades y moho, y un aumento considerable en la factura del agua. En Fontanería Martos contamos con más de 15 años de experiencia en la detección y reparación de todo tipo de fugas en Sant Vicent del Raspeig y alrededores.\n\nUtilizamos equipos de detección de última generación, incluyendo cámaras termográficas, equipos de correlación acústica y gas trazador, que nos permiten localizar con precisión el punto exacto de la fuga sin necesidad de realizar obras innecesarias.\n\nNuestro equipo está preparado para atender fugas en tuberías empotradas, bajantes, acometidas generales, circuitos de calefacción, sistemas de riego y redes de saneamiento. Trabajamos tanto en viviendas particulares como en comunidades de vecinos, locales comerciales y naves industriales.",
+        "benefits": [
+          "Detección precisa con cámaras termográficas y equipos acústicos",
+          "Reparación con mínima obra gracias a técnicas no invasivas",
+          "Servicio de urgencias 24 horas con respuesta en menos de 45 minutos",
+          "Presupuesto cerrado sin sorpresas ni costes adicionales",
+          "Garantía de 2 años en todas las reparaciones realizadas"
+        ],
+        "process": [
+          { "step": 1, "title": "Inspección y diagnóstico", "desc": "Realizamos una inspección completa del sistema de fontanería utilizando equipos de detección avanzados para localizar el origen exacto de la fuga." },
+          { "step": 2, "title": "Presupuesto detallado", "desc": "Le presentamos un presupuesto cerrado con todas las opciones de reparación disponibles." },
+          { "step": 3, "title": "Reparación profesional", "desc": "Ejecutamos la reparación con las técnicas más adecuadas, priorizando soluciones menos invasivas." },
+          { "step": 4, "title": "Verificación y garantía", "desc": "Comprobamos que la reparación es estanca mediante pruebas de presión y le entregamos certificado de garantía." }
+        ],
+        "faq": [
+          { "q": "¿Cómo sé si tengo una fuga oculta en mi vivienda?", "a": "Los signos más habituales son manchas de humedad en paredes o techos, un aumento inexplicable en la factura del agua, sonido de agua corriendo cuando todos los grifos están cerrados, o el contador de agua girando sin consumo aparente." },
+          { "q": "¿Es necesario romper la pared para reparar una fuga empotrada?", "a": "No siempre. Disponemos de técnicas de reparación sin obra como el encamisado de tuberías y la soldadura especializada." },
+          { "q": "¿Cuánto cuesta reparar una fuga de agua?", "a": "El coste depende del tipo de fuga, su ubicación y la complejidad. Una reparación sencilla puede costar desde 60 euros, mientras que una fuga empotrada puede oscilar entre 150 y 500 euros." },
+          { "q": "¿Atienden fugas de agua en fines de semana?", "a": "Sí, ofrecemos servicio de urgencias las 24 horas del día, los 7 días de la semana, incluidos fines de semana y festivos." }
+        ]
+      },
+      "instalacion-de-fontaneria": {
+        "title": "Instalación de Fontanería",
+        "shortDesc": "Realizamos instalaciones completas de fontanería para obra nueva y reformas, con materiales homologados y cumpliendo toda la normativa vigente.",
+        "description": "La instalación de fontanería es la base de cualquier edificación y requiere un diseño y ejecución profesional para garantizar un funcionamiento óptimo durante décadas. En Fontanería Martos somos especialistas en instalaciones completas para viviendas de obra nueva, reformas integrales, locales comerciales y comunidades de vecinos.\n\nNuestro servicio abarca desde el diseño del trazado de tuberías hasta la instalación final de sanitarios y grifería, pasando por la acometida general, la distribución de agua fría y caliente, los desagües y la conexión a la red de saneamiento.\n\nUtilizamos exclusivamente materiales de primera calidad homologados: tuberías de polipropileno, multicapa, cobre y PVC para saneamiento. Todas nuestras instalaciones cumplen con el Código Técnico de la Edificación.",
+        "benefits": [
+          "Diseño personalizado del trazado de tuberías",
+          "Materiales homologados de primeras marcas",
+          "Cumplimiento del Código Técnico de la Edificación",
+          "Tramitación de permisos y boletines incluida",
+          "Coordinación con otros gremios en reformas integrales"
+        ],
+        "process": [
+          { "step": 1, "title": "Visita técnica y diseño", "desc": "Evaluamos el espacio, tomamos medidas y diseñamos el trazado óptimo de tuberías." },
+          { "step": 2, "title": "Presupuesto detallado", "desc": "Desglose completo de materiales, mano de obra y plazos de ejecución." },
+          { "step": 3, "title": "Ejecución de la instalación", "desc": "Instalamos toda la red de fontanería con materiales de primera calidad." },
+          { "step": 4, "title": "Pruebas y certificación", "desc": "Realizamos pruebas de presión y estanqueidad, y emitimos el boletín correspondiente." }
+        ],
+        "faq": [
+          { "q": "¿Qué materiales utilizan para las tuberías?", "a": "Trabajamos con polipropileno (PPR), multicapa y cobre para agua, y PVC para saneamiento. Seleccionamos el material más adecuado según las necesidades de cada instalación." },
+          { "q": "¿Se encargan de los permisos necesarios?", "a": "Sí, tramitamos todos los permisos y certificados necesarios, incluyendo el boletín de fontanería para el alta de suministro." },
+          { "q": "¿Cuánto tiempo lleva una instalación completa?", "a": "Depende del tamaño del proyecto. Una vivienda estándar puede estar lista en 3-5 días laborables." }
+        ]
+      },
+      "desatascos": {
+        "title": "Desatascos y Limpieza de Tuberías",
+        "shortDesc": "Servicio profesional de desatascos con maquinaria de alta presión. Solucionamos atascos en tuberías, bajantes y redes de saneamiento.",
+        "description": "Los atascos en tuberías son una de las incidencias más molestas y frecuentes en cualquier vivienda o negocio. Un atasco puede provocar malos olores, desbordamientos e incluso daños por agua si no se soluciona a tiempo. En Fontanería Martos contamos con equipos profesionales de desatasco para resolver cualquier tipo de obstrucción de forma rápida y definitiva.\n\nDisponemos de maquinaria de desatasco mecánico y de alta presión (hasta 300 bar) capaz de eliminar las obstrucciones más resistentes. También utilizamos cámaras de inspección CCTV para diagnosticar con precisión la causa y ubicación del atasco.\n\nRealizamos desatascos en fregaderos, lavabos, duchas, bañeras, inodoros, bajantes comunitarios y redes generales de saneamiento.",
+        "benefits": [
+          "Maquinaria de alta presión hasta 300 bar",
+          "Cámara de inspección CCTV para diagnóstico preciso",
+          "Servicio de urgencias 24 horas disponible",
+          "Solución definitiva, no parches temporales",
+          "Limpieza preventiva para evitar futuros atascos"
+        ],
+        "process": [
+          { "step": 1, "title": "Diagnóstico con cámara", "desc": "Inspeccionamos la tubería con cámara CCTV para identificar la causa exacta del atasco." },
+          { "step": 2, "title": "Desatasco profesional", "desc": "Aplicamos la técnica más adecuada según el tipo de obstrucción." },
+          { "step": 3, "title": "Limpieza completa", "desc": "Limpiamos toda la tubería para prevenir futuros atascos." },
+          { "step": 4, "title": "Verificación final", "desc": "Comprobamos con cámara que la tubería queda completamente libre." }
+        ],
+        "faq": [
+          { "q": "¿Atienden urgencias por atascos?", "a": "Sí, disponemos de servicio de urgencias 24 horas para atascos graves que puedan causar desbordamientos o daños por agua." },
+          { "q": "¿Pueden desatascar bajantes comunitarios?", "a": "Sí, tenemos experiencia y equipos adecuados para desatascar bajantes y redes de saneamiento comunitarias." },
+          { "q": "¿Cómo puedo prevenir atascos?", "a": "Recomendamos no verter grasas ni restos sólidos por el desagüe, usar rejillas protectoras y realizar una limpieza preventiva anual." }
+        ]
+      },
+      "calentadores-y-calderas": {
+        "title": "Calentadores y Calderas",
+        "shortDesc": "Instalación, reparación y mantenimiento de calentadores de agua y calderas de gas de todas las marcas.",
+        "description": "El correcto funcionamiento de su calentador o caldera es fundamental para su confort diario. En Fontanería Martos ofrecemos un servicio completo que abarca la instalación de equipos nuevos, la reparación de averías y el mantenimiento preventivo para garantizar la máxima eficiencia y seguridad.\n\nTrabajamos con todas las marcas del mercado: Junkers, Vaillant, Baxi, Saunier Duval, Ferroli y más. Nuestros técnicos están certificados para trabajar con instalaciones de gas y cuentan con formación continua sobre las últimas tecnologías.\n\nOfrecemos contratos de mantenimiento anual que incluyen revisión completa, limpieza de circuitos y ajuste de parámetros para optimizar el consumo energético.",
+        "benefits": [
+          "Técnicos certificados en instalaciones de gas",
+          "Servicio para todas las marcas y modelos",
+          "Contratos de mantenimiento preventivo anual",
+          "Piezas de recambio originales",
+          "Asesoramiento sobre eficiencia energética"
+        ],
+        "process": [
+          { "step": 1, "title": "Diagnóstico del equipo", "desc": "Revisamos el estado completo del calentador o caldera para identificar el problema." },
+          { "step": 2, "title": "Presupuesto de reparación", "desc": "Le informamos del coste y le aconsejamos si merece la pena reparar o sustituir." },
+          { "step": 3, "title": "Reparación o instalación", "desc": "Ejecutamos el trabajo con piezas originales y siguiendo las especificaciones del fabricante." },
+          { "step": 4, "title": "Puesta en marcha y ajuste", "desc": "Verificamos el correcto funcionamiento y ajustamos los parámetros para máxima eficiencia." }
+        ],
+        "faq": [
+          { "q": "¿Cada cuánto hay que revisar la caldera?", "a": "Se recomienda una revisión anual para garantizar seguridad y eficiencia energética. Además, es obligatorio por normativa." },
+          { "q": "¿Cuándo debo cambiar mi calentador?", "a": "Si tiene más de 10-15 años, presenta averías frecuentes o el consumo ha aumentado notablemente, es recomendable sustituirlo por uno más eficiente." },
+          { "q": "¿Trabajan con calentadores eléctricos?", "a": "Sí, instalamos y reparamos tanto calentadores de gas como eléctricos, así como termos y bombas de calor." }
+        ]
+      },
+      "reformas-de-banos": {
+        "title": "Reformas de Baños y Cocinas",
+        "shortDesc": "Reformas integrales de baños y cocinas con diseño personalizado, fontanería completa y acabados de primera calidad.",
+        "description": "Transformamos su baño o cocina con reformas integrales que abarcan desde el diseño inicial hasta los últimos acabados. En Fontanería Martos nos encargamos de toda la parte de fontanería y coordinamos el resto de gremios para ofrecerle un servicio llave en mano.\n\nNuestras reformas incluyen: desmontaje de instalación antigua, nueva red de fontanería, impermeabilización, instalación de sanitarios, grifería, plato de ducha o bañera, muebles de baño, alicatado y suelos. Todo con materiales seleccionados y acabados de primera calidad.\n\nLe ayudamos a elegir los materiales y le asesoramos sobre las mejores opciones según su presupuesto y gustos. Trabajamos con las mejores marcas: Roca, Grohe, Hansgrohe, Geberit y más.",
+        "benefits": [
+          "Servicio llave en mano: diseño, fontanería y acabados",
+          "Cambio de bañera por plato de ducha accesible",
+          "Materiales de primeras marcas (Roca, Grohe, Hansgrohe)",
+          "Impermeabilización profesional garantizada",
+          "Plazos de ejecución definidos y cumplidos"
+        ],
+        "process": [
+          { "step": 1, "title": "Visita y diseño personalizado", "desc": "Tomamos medidas, escuchamos sus preferencias y le proponemos un diseño adaptado a su espacio y presupuesto." },
+          { "step": 2, "title": "Presupuesto cerrado", "desc": "Desglose detallado de todos los trabajos, materiales y plazos. Sin sorpresas." },
+          { "step": 3, "title": "Ejecución de la reforma", "desc": "Realizamos todos los trabajos de fontanería, alicatado, suelos y acabados con limpieza diaria." },
+          { "step": 4, "title": "Entrega y garantía", "desc": "Repasamos juntos cada detalle y le entregamos la garantía por escrito de todos los trabajos." }
+        ],
+        "faq": [
+          { "q": "¿Cuánto tiempo dura una reforma de baño completa?", "a": "Una reforma completa suele durar entre 5 y 10 días laborables. Reformas parciales pueden realizarse en 2-3 días." },
+          { "q": "¿Puedo usar el baño durante la reforma?", "a": "Intentamos minimizar las molestias. Si solo tiene un baño, organizamos el trabajo para que pueda usarlo al final de cada jornada." },
+          { "q": "¿Se encargan también del alicatado y los suelos?", "a": "Sí, ofrecemos un servicio integral que incluye alicatado, suelos, pintura y todos los acabados necesarios." },
+          { "q": "¿Hacen reformas de cocinas también?", "a": "Sí, realizamos reformas integrales de cocinas incluyendo toda la fontanería, desagües y conexiones de electrodomésticos." }
+        ]
+      }
+    }
+  },
+  "whyChooseUs": {
+    "title": "¿Por Qué Elegir Fontanería Martos?",
+    "subtitle": "Más de 20 años nos avalan como referentes en fontanería profesional en Alicante",
+    "items": [
+      { "title": "Profesionales Certificados", "desc": "Todos nuestros fontaneros cuentan con el carné de instalador autorizado y seguro de responsabilidad civil. Formación continua y certificaciones actualizadas." },
+      { "title": "Servicio Rápido", "desc": "Respuesta inmediata para urgencias las 24 horas del día. En situaciones normales, acudimos en menos de 24 horas." },
+      { "title": "Garantía de Satisfacción", "desc": "Garantía por escrito en todos nuestros trabajos. Utilizamos materiales de primeras marcas y nos aseguramos de que el resultado sea perfecto." },
+      { "title": "Presupuesto Sin Compromiso", "desc": "Presupuestos gratuitos y transparentes. Sin sorpresas ni costes ocultos. Le explicamos cada detalle antes de empezar." }
+    ]
+  },
+  "stats": {
+    "years": "Años de Experiencia",
+    "projects": "Trabajos Realizados",
+    "satisfaction": "Clientes Satisfechos",
+    "emergency": "Servicio de Urgencias"
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Clientes",
+    "subtitle": "La satisfacción de nuestros clientes es nuestra mejor garantía",
+    "viewAll": "Ver todas las reseñas"
+  },
+  "coverage": {
+    "title": "Zona de Cobertura",
+    "subtitle": "Ofrecemos nuestros servicios de fontanería en Sant Vicent del Raspeig y toda la comarca de l'Alacantí, incluyendo Alicante, Mutxamel, San Juan, El Campello y alrededores."
+  },
+  "cta": {
+    "homeTitle": "¿Necesita un Fontanero de Confianza?",
+    "homeDesc": "Contacte con nosotros hoy mismo para obtener un presupuesto sin compromiso. Atendemos urgencias las 24 horas.",
+    "contactNow": "Contactar Ahora",
+    "requestQuote": "Solicitar Presupuesto"
+  },
+  "about": {
+    "pageTitle": "Sobre Nosotros",
+    "pageSubtitle": "Más de dos décadas de experiencia avalan nuestro compromiso con la calidad y la satisfacción del cliente.",
+    "historyTitle": "Nuestra Historia",
+    "historyP1": "Fontanería Martos nació en el año 2003 en Sant Vicent del Raspeig, cuando Antonio Martos decidió fundar su propia empresa de fontanería tras más de una década trabajando en el sector. Su objetivo era claro: ofrecer un servicio de fontanería profesional, honesto y cercano a sus vecinos.",
+    "historyP2": "Lo que comenzó como un pequeño negocio familiar ha crecido hasta convertirse en una de las empresas de fontanería de referencia en la comarca de l'Alacantí. Hoy, nuestro equipo de profesionales cualificados atiende a miles de clientes cada año, desde hogares particulares hasta comunidades de vecinos y negocios.",
+    "historyP3": "A lo largo de estos más de 20 años, hemos mantenido los valores que nos definen: trabajo bien hecho, precios justos y transparentes, y un trato personal con cada cliente. Nos enorgullece que la mayoría de nuestros nuevos clientes llegan recomendados por otros clientes satisfechos.",
+    "yearsExperience": "Años de Experiencia",
+    "missionTitle": "Nuestra Misión",
+    "missionText": "Ser la empresa de fontanería de referencia en Alicante, ofreciendo soluciones profesionales, rápidas y duraderas que superen las expectativas de nuestros clientes.",
+    "teamTitle": "Nuestro Equipo",
+    "teamSubtitle": "Profesionales cualificados y comprometidos con la excelencia",
+    "team": [
+      { "name": "Antonio Martos", "role": "Fundador y Director Técnico", "desc": "Con más de 25 años de experiencia en el sector, Antonio fundó Fontanería Martos con la visión de ofrecer un servicio profesional y honesto." },
+      { "name": "Miguel Ángel Martos", "role": "Jefe de Equipo", "desc": "Especialista en instalaciones y reformas integrales. Miguel Ángel lidera los proyectos más complejos con precisión y eficiencia." },
+      { "name": "Carlos Hernández", "role": "Técnico de Urgencias", "desc": "Disponible las 24 horas para atender cualquier emergencia de fontanería. Carlos es el responsable de nuestro servicio de respuesta rápida." }
+    ],
+    "valuesTitle": "Nuestros Valores",
+    "valuesSubtitle": "Los principios que guían cada trabajo que realizamos",
+    "values": [
+      { "title": "Profesionalidad", "desc": "Cada trabajo cumple con los más altos estándares de calidad. Nuestros fontaneros están certificados y en formación continua." },
+      { "title": "Compromiso", "desc": "Nos comprometemos con cada cliente como si fuera el único. Su satisfacción es nuestra prioridad." },
+      { "title": "Cercanía", "desc": "Somos un equipo local que conoce las necesidades de nuestros vecinos. Trato personal y cercano." },
+      { "title": "Garantía", "desc": "Todos nuestros trabajos incluyen garantía por escrito. Materiales de primera calidad de marcas reconocidas." }
+    ],
+    "certsTitle": "Certificaciones y Garantías",
+    "certsSubtitle": "Profesionalidad acreditada y respaldada",
+    "certs": [
+      { "title": "Instalador Autorizado", "desc": "Empresa registrada como instalador autorizado en la Comunidad Valenciana. Carné profesional en vigor." },
+      { "title": "Seguro de Responsabilidad Civil", "desc": "Seguro de responsabilidad civil que cubre todos nuestros trabajos, para su total tranquilidad." },
+      { "title": "Garantía por Escrito", "desc": "Todos nuestros trabajos incluyen garantía por escrito. Materiales con garantía del fabricante." }
+    ]
+  },
+  "projects": {
+    "pageTitle": "Nuestros Proyectos",
+    "pageSubtitle": "Descubra algunos de los trabajos que hemos realizado. Cada proyecto refleja nuestra dedicación a la calidad.",
+    "all": "Todos",
+    "challenge": "El Reto",
+    "solution": "La Solución",
+    "result": "El Resultado",
+    "description": "Descripción del Proyecto",
+    "specs": "Ficha Técnica",
+    "photo": "Foto",
+    "similarProject": "¿Proyecto Similar? Contáctenos",
+    "ctaTitle": "¿Tiene un Proyecto en Mente?",
+    "ctaDesc": "Cuéntenos qué necesita y le preparamos un presupuesto personalizado sin compromiso."
+  },
+  "reviews": {
+    "pageTitle": "Reseñas de Clientes",
+    "pageSubtitle": "La opinión de nuestros clientes es nuestra mejor carta de presentación.",
+    "average": "Valoración media de nuestros clientes",
+    "viewGoogle": "Ver en Google Reviews",
+    "reviewCount": "reseñas",
+    "ctaTitle": "¿Quiere Ser Nuestro Próximo Cliente Satisfecho?",
+    "ctaDesc": "Contacte con nosotros y descubra por qué nuestros clientes nos recomiendan."
+  },
+  "faqPage": {
+    "pageTitle": "Preguntas Frecuentes",
+    "pageSubtitle": "Encuentre respuestas a las preguntas más comunes sobre nuestros servicios de fontanería.",
+    "search": "Buscar preguntas...",
+    "all": "Todas",
+    "noResults": "No se encontraron resultados para su búsqueda.",
+    "ctaTitle": "¿No Encuentra lo que Busca?",
+    "ctaDesc": "Contacte con nosotros directamente y resolveremos todas sus dudas sin compromiso."
+  },
+  "contact": {
+    "pageTitle": "Contacto",
+    "pageSubtitle": "Estamos aquí para ayudarle. Solicite un presupuesto sin compromiso o consúltenos cualquier duda.",
+    "formTitle": "Envíenos un Mensaje",
+    "name": "Nombre",
+    "namePlaceholder": "Su nombre completo",
+    "email": "Email",
+    "emailPlaceholder": "su@email.com",
+    "phone": "Teléfono",
+    "phonePlaceholder": "+34 600 000 000",
+    "subject": "Asunto",
+    "selectSubject": "Seleccione un asunto",
+    "subjects": {
+      "quote": "Solicitar Presupuesto",
+      "emergency": "Urgencia / Emergencia",
+      "repair": "Reparación",
+      "installation": "Instalación",
+      "renovation": "Reforma",
+      "other": "Otro"
+    },
+    "message": "Mensaje",
+    "messagePlaceholder": "Describa su consulta o el trabajo que necesita...",
+    "privacy": "He leído y acepto la",
+    "privacyLink": "Política de Privacidad",
+    "send": "Enviar Mensaje",
+    "successTitle": "Mensaje Enviado",
+    "successText": "Gracias por contactar con nosotros. Le responderemos lo antes posible, normalmente en menos de 24 horas.",
+    "contactDetails": "Datos de Contacto",
+    "address": "Dirección",
+    "hours": "Horario",
+    "weekdays": "Lunes a Viernes: 08:00 - 19:00",
+    "saturday": "Sábados: 09:00 - 14:00",
+    "emergencyHours": "Urgencias: 24 horas",
+    "whatsapp": "WhatsApp Directo",
+    "required": "obligatorio",
+    "errors": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El email es obligatorio",
+      "emailInvalid": "Introduzca un email válido",
+      "subjectRequired": "Seleccione un asunto",
+      "messageRequired": "El mensaje es obligatorio",
+      "messageMin": "El mensaje debe tener al menos 10 caracteres",
+      "privacyRequired": "Debe aceptar la política de privacidad"
+    }
+  },
+  "footer": {
+    "description": "Más de 20 años ofreciendo servicios de fontanería profesional en Sant Vicent del Raspeig y toda la provincia de Alicante. Su fontanero de confianza.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "copyright": "© 2025 Fontanería Martos. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones"
+  },
+  "common": {
+    "learnMore": "Más información",
+    "viewAll": "Ver todo",
+    "back": "Volver",
+    "home": "Inicio"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Over Ons",
+    "services": "Diensten",
+    "projects": "Projecten",
+    "reviews": "Beoordelingen",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "requestQuote": "Offerte Aanvragen",
+    "callUs": "Bel Ons"
+  },
+  "hero": {
+    "title": "Betrouwbare Loodgieters in Alicante",
+    "subtitle": "Al meer dan 20 jaar lossen wij loodgietersproblemen op in Sant Vicent del Raspeig en de hele provincie Alicante. Professionele, snelle en gegarandeerde service.",
+    "cta": "Gratis Offerte Aanvragen",
+    "secondaryCta": "Bekijk Onze Diensten"
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "subtitle": "Professionele loodgietersoplossingen voor elke behoefte",
+    "learnMore": "Meer informatie",
+    "benefits": "Voordelen",
+    "process": "Ons Werkproces",
+    "faq": "Veelgestelde Vragen",
+    "related": "Gerelateerde Diensten",
+    "requestQuote": "Offerte Aanvragen",
+    "callPrice": "Bel: +34 966 123 456",
+    "items": {
+      "reparacion-de-fugas": {
+        "title": "Lekkage Reparatie",
+        "shortDesc": "Wij detecteren en repareren waterlekken in leidingen, kranen en loodgietersystemen met geavanceerde technologie en minimale overlast.",
+        "description": "Waterlekken zijn een van de meest voorkomende en potentieel schadelijke problemen voor elke woning of bedrijfspand. Een onopgemerkt lek kan ernstige structurele schade veroorzaken, vocht en schimmel doen ontstaan, en een aanzienlijke stijging van uw waterrekening tot gevolg hebben. Bij Fontaneria Martos hebben we meer dan 15 jaar ervaring in het opsporen en repareren van alle soorten lekken in Sant Vicent del Raspeig en omgeving.\n\nWij gebruiken detectieapparatuur van de laatste generatie, waaronder thermografische camera's, akoestische correlatieapparatuur en traceergas, waarmee we het exacte punt van het lek nauwkeurig kunnen lokaliseren zonder onnodig breekwerk.\n\nOns team is voorbereid op het verhelpen van lekken in ingebouwde leidingen, standleidingen, hoofdaansluitingen, verwarmingscircuits, irrigatiesystemen en rioleringsnetwerken. Wij werken zowel in particuliere woningen als in verenigingen van eigenaren, commerciele panden en industriele hallen.",
+        "benefits": [
+          "Nauwkeurige detectie met thermische camera's en akoestische apparatuur",
+          "Reparatie met minimale overlast dankzij niet-invasieve technieken",
+          "24-uurs spoeddienst met responstijd onder 45 minuten",
+          "Vaste prijs zonder verrassingen of extra kosten",
+          "2 jaar garantie op alle uitgevoerde reparaties"
+        ],
+        "process": [
+          { "step": 1, "title": "Inspectie en diagnose", "desc": "Wij voeren een complete inspectie van het loodgietersysteem uit met geavanceerde detectieapparatuur om de exacte bron van het lek te lokaliseren." },
+          { "step": 2, "title": "Gedetailleerde offerte", "desc": "Wij presenteren u een vaste offerte met alle beschikbare reparatieopties." },
+          { "step": 3, "title": "Professionele reparatie", "desc": "Wij voeren de reparatie uit met de meest geschikte technieken, waarbij we de voorkeur geven aan de minst invasieve oplossingen." },
+          { "step": 4, "title": "Verificatie en garantie", "desc": "Wij controleren de waterdichtheid door middel van drukproeven en overhandigen u een schriftelijk garantiecertificaat." }
+        ],
+        "faq": [
+          { "q": "Hoe weet ik of ik een verborgen lek heb?", "a": "De meest voorkomende tekenen zijn vochtplekken op muren of plafonds, een onverklaarbare stijging van de waterrekening, het geluid van stromend water wanneer alle kranen dicht zijn, of de watermeter die draait zonder zichtbaar verbruik." },
+          { "q": "Moet de muur opengebroken worden om een ingebouwd lek te repareren?", "a": "Niet altijd. Wij beschikken over niet-invasieve reparatietechnieken zoals het relinen van leidingen en gespecialiseerd lassen." },
+          { "q": "Hoeveel kost het om een waterlek te repareren?", "a": "De kosten hangen af van het type lek, de locatie en de complexiteit. Een eenvoudige reparatie kan vanaf 60 euro, terwijl een ingebouwd lek tussen 150 en 500 euro kan kosten." },
+          { "q": "Komen jullie ook in het weekend voor waterlekken?", "a": "Ja, wij bieden een 24-uurs spoeddienst, 7 dagen per week, inclusief weekenden en feestdagen." }
+        ]
+      },
+      "instalacion-de-fontaneria": {
+        "title": "Loodgieterij Installatie",
+        "shortDesc": "Wij voeren complete loodgietersinstallaties uit voor nieuwbouw en renovaties, met goedgekeurde materialen en conform alle geldende regelgeving.",
+        "description": "De loodgietersinstallatie vormt de basis van elk gebouw en vereist een professioneel ontwerp en uitvoering om optimaal functioneren gedurende tientallen jaren te garanderen. Bij Fontaneria Martos zijn wij gespecialiseerd in complete installaties voor nieuwbouwwoningen, integrale renovaties, commerciele panden en verenigingen van eigenaren.\n\nOnze service omvat alles van het ontwerp van de leidingloop tot de uiteindelijke installatie van sanitair en kranen, inclusief de hoofdaansluiting, warm- en koudwaterdistributie, afvoer en aansluiting op het rioleringsnetwerk.\n\nWij gebruiken uitsluitend eersteklas goedgekeurde materialen: polypropyleen, meerlaags, koper en PVC leidingen. Al onze installaties voldoen aan het Technisch Bouwbesluit.",
+        "benefits": [
+          "Gepersonaliseerd ontwerp van de leidingloop",
+          "Goedgekeurde materialen van topmerken",
+          "Naleving van het Technisch Bouwbesluit",
+          "Vergunningen en certificaten verwerking inbegrepen",
+          "Coordinatie met andere vakgebieden bij integrale renovaties"
+        ],
+        "process": [
+          { "step": 1, "title": "Technisch bezoek en ontwerp", "desc": "Wij evalueren de ruimte, nemen metingen en ontwerpen de optimale leidingloop." },
+          { "step": 2, "title": "Gedetailleerde offerte", "desc": "Volledig overzicht van materialen, arbeid en uitvoeringstermijnen." },
+          { "step": 3, "title": "Uitvoering van de installatie", "desc": "Wij installeren het volledige loodgietersnetwerk met materialen van eerste kwaliteit." },
+          { "step": 4, "title": "Testen en certificering", "desc": "Wij voeren druk- en waterdichtheidsproeven uit en verstrekken het bijbehorende certificaat." }
+        ],
+        "faq": [
+          { "q": "Welke materialen gebruiken jullie voor leidingen?", "a": "Wij werken met polypropyleen (PPR), meerlaags en koper voor water, en PVC voor afvoer. Wij selecteren het meest geschikte materiaal per installatie." },
+          { "q": "Regelen jullie de benodigde vergunningen?", "a": "Ja, wij verwerken alle benodigde vergunningen en certificaten, inclusief het loodgieterscertificaat voor de wateraansluiting." },
+          { "q": "Hoe lang duurt een complete installatie?", "a": "Dat hangt af van de omvang van het project. Een standaard woning kan in 3-5 werkdagen klaar zijn." }
+        ]
+      },
+      "desatascos": {
+        "title": "Ontstopping en Reiniging van Leidingen",
+        "shortDesc": "Professionele ontstoppingsdienst met hogedrukapparatuur. Wij lossen verstoppingen op in leidingen, standleidingen en rioleringsnetwerken.",
+        "description": "Verstopte leidingen zijn een van de meest vervelende en frequente incidenten in elke woning of bedrijf. Een verstopping kan nare geuren, overstromingen en zelfs waterschade veroorzaken als het niet op tijd wordt opgelost. Bij Fontaneria Martos beschikken wij over professionele ontstoppingsapparatuur om elk type verstopping snel en definitief op te lossen.\n\nWij beschikken over mechanische en hogedruk-ontstoppingsmachines (tot 300 bar) die de meest hardnekkige verstoppingen kunnen verwijderen. Wij gebruiken ook CCTV-inspectiecamera's om de oorzaak en locatie van de verstopping nauwkeurig te diagnosticeren.\n\nWij ontstoppen gootstenen, wastafels, douches, badkuipen, toiletten, gemeenschappelijke standleidingen en algemene rioleringsnetwerken.",
+        "benefits": [
+          "Hogedrukmachines tot 300 bar",
+          "CCTV-inspectiecamera voor nauwkeurige diagnose",
+          "24-uurs spoeddienst beschikbaar",
+          "Definitieve oplossing, geen tijdelijke reparaties",
+          "Preventieve reiniging om toekomstige verstoppingen te voorkomen"
+        ],
+        "process": [
+          { "step": 1, "title": "Diagnose met camera", "desc": "Wij inspecteren de leiding met een CCTV-camera om de exacte oorzaak van de verstopping vast te stellen." },
+          { "step": 2, "title": "Professionele ontstopping", "desc": "Wij passen de meest geschikte techniek toe afhankelijk van het type verstopping." },
+          { "step": 3, "title": "Volledige reiniging", "desc": "Wij reinigen de gehele leiding om toekomstige verstoppingen te voorkomen." },
+          { "step": 4, "title": "Eindcontrole", "desc": "Wij controleren met de camera of de leiding volledig vrij is." }
+        ],
+        "faq": [
+          { "q": "Komen jullie in noodgevallen voor verstoppingen?", "a": "Ja, wij hebben een 24-uurs spoeddienst voor ernstige verstoppingen die overstromingen of waterschade kunnen veroorzaken." },
+          { "q": "Kunnen jullie gemeenschappelijke standleidingen ontstoppen?", "a": "Ja, wij hebben de ervaring en geschikte apparatuur om gemeenschappelijke standleidingen en rioleringsnetwerken te ontstoppen." },
+          { "q": "Hoe kan ik verstoppingen voorkomen?", "a": "Wij raden aan geen vetten of vast afval door de afvoer te gieten, beschermroosters te gebruiken en jaarlijks preventief te laten reinigen." }
+        ]
+      },
+      "calentadores-y-calderas": {
+        "title": "Boilers en CV-ketels",
+        "shortDesc": "Installatie, reparatie en onderhoud van boilers en gasketels van alle merken.",
+        "description": "Het correct functioneren van uw boiler of CV-ketel is essentieel voor uw dagelijks comfort. Bij Fontaneria Martos bieden wij een complete service die de installatie van nieuwe apparatuur, het verhelpen van storingen en preventief onderhoud omvat om maximale efficientie en veiligheid te garanderen.\n\nWij werken met alle merken op de markt: Junkers, Vaillant, Baxi, Saunier Duval, Ferroli en meer. Onze technici zijn gecertificeerd om met gasinstallaties te werken en volgen continue bijscholing over de nieuwste technologieen.\n\nWij bieden jaarlijkse onderhoudscontracten aan inclusief volledige revisie, reiniging van circuits en aanpassing van parameters om het energieverbruik te optimaliseren.",
+        "benefits": [
+          "Gecertificeerde technici voor gasinstallaties",
+          "Service voor alle merken en modellen",
+          "Jaarlijkse preventieve onderhoudscontracten",
+          "Originele reserveonderdelen",
+          "Advies over energie-efficientie"
+        ],
+        "process": [
+          { "step": 1, "title": "Diagnose van het apparaat", "desc": "Wij beoordelen de volledige staat van de boiler of CV-ketel om het probleem vast te stellen." },
+          { "step": 2, "title": "Reparatieofferte", "desc": "Wij informeren u over de kosten en adviseren of reparatie of vervanging de beste optie is." },
+          { "step": 3, "title": "Reparatie of installatie", "desc": "Wij voeren het werk uit met originele onderdelen volgens de specificaties van de fabrikant." },
+          { "step": 4, "title": "Inbedrijfstelling en afstelling", "desc": "Wij controleren de juiste werking en stellen de parameters af voor maximale efficientie." }
+        ],
+        "faq": [
+          { "q": "Hoe vaak moet de CV-ketel worden nagekeken?", "a": "Een jaarlijkse controle wordt aanbevolen voor veiligheid en energie-efficientie. Het is bovendien wettelijk verplicht." },
+          { "q": "Wanneer moet ik mijn boiler vervangen?", "a": "Als het apparaat ouder is dan 10-15 jaar, regelmatig storingen vertoont of het verbruik merkbaar is gestegen, is het raadzaam het te vervangen door een efficienter model." },
+          { "q": "Werken jullie ook met elektrische boilers?", "a": "Ja, wij installeren en repareren zowel gas- als elektrische boilers, evenals opslagtanks en warmtepompen." }
+        ]
+      },
+      "reformas-de-banos": {
+        "title": "Badkamer- en Keukenrenovaties",
+        "shortDesc": "Complete badkamer- en keukenrenovaties met gepersonaliseerd ontwerp, volledige loodgieterij en afwerking van eerste kwaliteit.",
+        "description": "Wij transformeren uw badkamer of keuken met integrale renovaties die alles omvatten van het eerste ontwerp tot de laatste afwerking. Bij Fontaneria Martos nemen wij het volledige loodgieterswerk op ons en coordineren wij de overige vakgebieden voor een turnkey service.\n\nOnze renovaties omvatten: verwijdering van de oude installatie, nieuw leidingnetwerk, waterdichting, installatie van sanitair, kranen, douchebak of bad, badkamermeubels, tegels en vloeren. Alles met geselecteerde materialen en afwerking van eerste kwaliteit.\n\nWij helpen u bij het kiezen van materialen en adviseren over de beste opties binnen uw budget en smaak. Wij werken met de beste merken: Roca, Grohe, Hansgrohe, Geberit en meer.",
+        "benefits": [
+          "Turnkey service: ontwerp, loodgieterij en afwerking",
+          "Omzetting van bad naar toegankelijke douchebak",
+          "Materialen van topmerken (Roca, Grohe, Hansgrohe)",
+          "Professionele waterdichting gegarandeerd",
+          "Vaste uitvoeringstermijnen, altijd nagekomen"
+        ],
+        "process": [
+          { "step": 1, "title": "Bezoek en gepersonaliseerd ontwerp", "desc": "Wij nemen metingen, luisteren naar uw wensen en stellen een ontwerp voor dat past bij uw ruimte en budget." },
+          { "step": 2, "title": "Vaste offerte", "desc": "Gedetailleerd overzicht van alle werkzaamheden, materialen en termijnen. Zonder verrassingen." },
+          { "step": 3, "title": "Uitvoering van de renovatie", "desc": "Wij voeren alle loodgieters-, tegel-, vloer- en afwerkingswerkzaamheden uit met dagelijkse schoonmaak." },
+          { "step": 4, "title": "Oplevering en garantie", "desc": "Wij lopen samen elk detail na en overhandigen u de schriftelijke garantie voor alle werkzaamheden." }
+        ],
+        "faq": [
+          { "q": "Hoe lang duurt een complete badkamerrenovatie?", "a": "Een complete renovatie duurt doorgaans 5 tot 10 werkdagen. Gedeeltelijke renovaties kunnen in 2-3 dagen worden uitgevoerd." },
+          { "q": "Kan ik de badkamer gebruiken tijdens de renovatie?", "a": "Wij proberen de overlast te minimaliseren. Als u slechts een badkamer heeft, organiseren wij het werk zo dat u deze aan het einde van elke dag kunt gebruiken." },
+          { "q": "Verzorgen jullie ook het tegelwerk en de vloeren?", "a": "Ja, wij bieden een uitgebreide service inclusief tegels, vloeren, schilderwerk en alle benodigde afwerking." },
+          { "q": "Renoveren jullie ook keukens?", "a": "Ja, wij voeren integrale keukenrenovaties uit inclusief alle loodgieterij, afvoer en aansluitingen van apparatuur." }
+        ]
+      }
+    }
+  },
+  "whyChooseUs": {
+    "title": "Waarom Kiezen voor Fontaneria Martos?",
+    "subtitle": "Al meer dan 20 jaar een referentie in professionele loodgieterij in Alicante",
+    "items": [
+      { "title": "Gecertificeerde Professionals", "desc": "Al onze loodgieters beschikken over een erkende installateurslicentie en aansprakelijkheidsverzekering. Continue bijscholing en actuele certificeringen." },
+      { "title": "Snelle Service", "desc": "Directe respons voor 24-uurs noodgevallen. In normale situaties komen wij binnen 24 uur." },
+      { "title": "Tevredenheidsgarantie", "desc": "Schriftelijke garantie op al ons werk. Wij gebruiken materialen van topmerken en garanderen perfecte resultaten." },
+      { "title": "Vrijblijvende Offerte", "desc": "Gratis en transparante offertes. Geen verrassingen of verborgen kosten. Wij leggen elk detail uit voordat we beginnen." }
+    ]
+  },
+  "stats": {
+    "years": "Jaar Ervaring",
+    "projects": "Uitgevoerde Klussen",
+    "satisfaction": "Tevreden Klanten",
+    "emergency": "Spoeddienst"
+  },
+  "testimonials": {
+    "title": "Wat Onze Klanten Zeggen",
+    "subtitle": "De tevredenheid van onze klanten is onze beste garantie",
+    "viewAll": "Alle beoordelingen bekijken"
+  },
+  "coverage": {
+    "title": "Werkgebied",
+    "subtitle": "Wij bieden onze loodgietersdiensten aan in Sant Vicent del Raspeig en de hele regio l'Alacanti, inclusief Alicante, Mutxamel, San Juan, El Campello en omgeving."
+  },
+  "cta": {
+    "homeTitle": "Een Betrouwbare Loodgieter Nodig?",
+    "homeDesc": "Neem vandaag nog contact met ons op voor een vrijblijvende offerte. Wij zijn 24 uur per dag bereikbaar voor noodgevallen.",
+    "contactNow": "Nu Contact Opnemen",
+    "requestQuote": "Offerte Aanvragen"
+  },
+  "about": {
+    "pageTitle": "Over Ons",
+    "pageSubtitle": "Meer dan twee decennia ervaring ondersteunen onze toewijding aan kwaliteit en klanttevredenheid.",
+    "historyTitle": "Onze Geschiedenis",
+    "historyP1": "Fontaneria Martos werd opgericht in 2003 in Sant Vicent del Raspeig, toen Antonio Martos besloot zijn eigen loodgietersbedrijf te starten na meer dan een decennium in de sector. Zijn doel was duidelijk: een professionele, eerlijke en benaderbare loodgietersservice bieden aan zijn buren.",
+    "historyP2": "Wat begon als een klein familiebedrijf is uitgegroeid tot een van de toonaangevende loodgietersbedrijven in de regio l'Alacanti. Vandaag bedient ons team van gekwalificeerde professionals jaarlijks duizenden klanten, van particuliere woningen tot verenigingen van eigenaren en bedrijven.",
+    "historyP3": "Gedurende deze meer dan 20 jaar hebben wij de waarden behouden die ons defini\u00ebren: vakmanschap, eerlijke en transparante prijzen, en persoonlijke aandacht voor elke klant. Wij zijn er trots op dat de meeste nieuwe klanten op aanbeveling van andere tevreden klanten komen.",
+    "yearsExperience": "Jaar Ervaring",
+    "missionTitle": "Onze Missie",
+    "missionText": "Het toonaangevende loodgietersbedrijf van Alicante zijn, met professionele, snelle en duurzame oplossingen die de verwachtingen van onze klanten overtreffen.",
+    "teamTitle": "Ons Team",
+    "teamSubtitle": "Gekwalificeerde professionals toegewijd aan excellentie",
+    "team": [
+      { "name": "Antonio Martos", "role": "Oprichter en Technisch Directeur", "desc": "Met meer dan 25 jaar ervaring in de sector richtte Antonio Fontaneria Martos op met de visie een professionele en eerlijke service te bieden." },
+      { "name": "Miguel Angel Martos", "role": "Teamleider", "desc": "Specialist in installaties en complete renovaties. Miguel Angel leidt de meest complexe projecten met precisie en efficientie." },
+      { "name": "Carlos Hernandez", "role": "Nooddiensttechnicus", "desc": "24 uur per dag beschikbaar voor elke loodgietesnoodgeval. Carlos is verantwoordelijk voor onze snelle responsdienst." }
+    ],
+    "valuesTitle": "Onze Waarden",
+    "valuesSubtitle": "De principes die elk werk dat wij uitvoeren leiden",
+    "values": [
+      { "title": "Professionaliteit", "desc": "Elk werk voldoet aan de hoogste kwaliteitsnormen. Onze loodgieters zijn gecertificeerd en volgen continue bijscholing." },
+      { "title": "Toewijding", "desc": "Wij zetten ons in voor elke klant alsof het de enige is. Uw tevredenheid is onze prioriteit." },
+      { "title": "Nabijheid", "desc": "Wij zijn een lokaal team dat de behoeften van onze buren kent. Persoonlijke en toegankelijke service." },
+      { "title": "Garantie", "desc": "Al ons werk bevat een schriftelijke garantie. Materialen van eerste kwaliteit van erkende merken." }
+    ],
+    "certsTitle": "Certificeringen en Garanties",
+    "certsSubtitle": "Erkende en ondersteunde professionaliteit",
+    "certs": [
+      { "title": "Erkend Installateur", "desc": "Bedrijf geregistreerd als erkend installateur in de Valenciaanse Gemeenschap. Actuele beroepslicentie." },
+      { "title": "Aansprakelijkheidsverzekering", "desc": "Aansprakelijkheidsverzekering die al ons werk dekt, voor uw volledige gemoedsrust." },
+      { "title": "Schriftelijke Garantie", "desc": "Al ons werk bevat een schriftelijke garantie. Materialen met fabrieksgarantie." }
+    ]
+  },
+  "projects": {
+    "pageTitle": "Onze Projecten",
+    "pageSubtitle": "Ontdek enkele van de werkzaamheden die wij hebben uitgevoerd. Elk project weerspiegelt onze toewijding aan kwaliteit.",
+    "all": "Alle",
+    "challenge": "De Uitdaging",
+    "solution": "De Oplossing",
+    "result": "Het Resultaat",
+    "description": "Projectbeschrijving",
+    "specs": "Technische Gegevens",
+    "photo": "Foto",
+    "similarProject": "Vergelijkbaar Project? Neem Contact Op",
+    "ctaTitle": "Een Project in Gedachten?",
+    "ctaDesc": "Vertel ons wat u nodig heeft en wij stellen een vrijblijvende offerte op maat samen."
+  },
+  "reviews": {
+    "pageTitle": "Klantbeoordelingen",
+    "pageSubtitle": "De mening van onze klanten is ons beste visitekaartje.",
+    "average": "Gemiddelde beoordeling van onze klanten",
+    "viewGoogle": "Bekijk op Google Reviews",
+    "reviewCount": "beoordelingen",
+    "ctaTitle": "Wilt u Onze Volgende Tevreden Klant Zijn?",
+    "ctaDesc": "Neem contact met ons op en ontdek waarom onze klanten ons aanbevelen."
+  },
+  "faqPage": {
+    "pageTitle": "Veelgestelde Vragen",
+    "pageSubtitle": "Vind antwoorden op de meest gestelde vragen over onze loodgietersdiensten.",
+    "search": "Zoek vragen...",
+    "all": "Alle",
+    "noResults": "Geen resultaten gevonden voor uw zoekopdracht.",
+    "ctaTitle": "Niet Gevonden Wat u Zoekt?",
+    "ctaDesc": "Neem direct contact met ons op en wij beantwoorden al uw vragen vrijblijvend."
+  },
+  "contact": {
+    "pageTitle": "Contact",
+    "pageSubtitle": "Wij staan voor u klaar. Vraag een vrijblijvende offerte aan of stel ons uw vragen.",
+    "formTitle": "Stuur Ons een Bericht",
+    "name": "Naam",
+    "namePlaceholder": "Uw volledige naam",
+    "email": "E-mail",
+    "emailPlaceholder": "uw@email.com",
+    "phone": "Telefoon",
+    "phonePlaceholder": "+34 600 000 000",
+    "subject": "Onderwerp",
+    "selectSubject": "Selecteer een onderwerp",
+    "subjects": {
+      "quote": "Offerte Aanvragen",
+      "emergency": "Spoed / Noodgeval",
+      "repair": "Reparatie",
+      "installation": "Installatie",
+      "renovation": "Renovatie",
+      "other": "Anders"
+    },
+    "message": "Bericht",
+    "messagePlaceholder": "Beschrijf uw vraag of het gewenste werk...",
+    "privacy": "Ik heb het gelezen en accepteer het",
+    "privacyLink": "Privacybeleid",
+    "send": "Bericht Versturen",
+    "successTitle": "Bericht Verzonden",
+    "successText": "Bedankt voor uw bericht. Wij reageren zo snel mogelijk, meestal binnen 24 uur.",
+    "contactDetails": "Contactgegevens",
+    "address": "Adres",
+    "hours": "Openingstijden",
+    "weekdays": "Maandag t/m vrijdag: 08:00 - 19:00",
+    "saturday": "Zaterdag: 09:00 - 14:00",
+    "emergencyHours": "Spoed: 24 uur",
+    "whatsapp": "WhatsApp Direct",
+    "required": "verplicht",
+    "errors": {
+      "nameRequired": "Naam is verplicht",
+      "emailRequired": "E-mail is verplicht",
+      "emailInvalid": "Voer een geldig e-mailadres in",
+      "subjectRequired": "Selecteer een onderwerp",
+      "messageRequired": "Bericht is verplicht",
+      "messageMin": "Bericht moet minimaal 10 tekens bevatten",
+      "privacyRequired": "U moet het privacybeleid accepteren"
+    }
+  },
+  "footer": {
+    "description": "Al meer dan 20 jaar professionele loodgietersdiensten in Sant Vicent del Raspeig en de hele provincie Alicante. Uw betrouwbare loodgieter.",
+    "quickLinks": "Snelle Links",
+    "services": "Diensten",
+    "contact": "Contact",
+    "copyright": "\u00a9 2025 Fontaneria Martos. Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene Voorwaarden"
+  },
+  "common": {
+    "learnMore": "Meer informatie",
+    "viewAll": "Alles bekijken",
+    "back": "Terug",
+    "home": "Home"
+  }
+}

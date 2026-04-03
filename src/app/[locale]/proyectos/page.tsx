@@ -2,18 +2,23 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useDictionary } from "@/components/DictionaryProvider";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import CTABanner from "@/components/sections/CTABanner";
 import { projects } from "@/lib/data/projects";
 
-const categories = ["Todos", ...Array.from(new Set(projects.map((p) => p.category)))];
-
 export default function ProyectosPage() {
-  const [activeCategory, setActiveCategory] = useState("Todos");
+  const { dict, locale } = useDictionary();
+  const [activeCategory, setActiveCategory] = useState(dict.projects.all);
+
+  const categories = [
+    dict.projects.all,
+    ...Array.from(new Set(projects.map((p) => p.category))),
+  ];
 
   const filtered =
-    activeCategory === "Todos"
+    activeCategory === dict.projects.all
       ? projects
       : projects.filter((p) => p.category === activeCategory);
 
@@ -23,16 +28,15 @@ export default function ProyectosPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
-              { label: "Inicio", href: "/" },
-              { label: "Proyectos" },
+              { label: dict.common.home, href: `/${locale}` },
+              { label: dict.projects.pageTitle },
             ]}
           />
           <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
-            Nuestros Proyectos
+            {dict.projects.pageTitle}
           </h1>
           <p className="text-primary-100 text-lg max-w-2xl">
-            Descubra algunos de los trabajos que hemos realizado para nuestros
-            clientes. Cada proyecto refleja nuestra dedicación a la calidad.
+            {dict.projects.pageSubtitle}
           </p>
         </div>
       </section>
@@ -60,7 +64,7 @@ export default function ProyectosPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filtered.map((project, i) => (
               <AnimatedSection key={project.slug} delay={i * 0.1}>
-                <Link href={`/proyectos/${project.slug}`}>
+                <Link href={`/${locale}/proyectos/${project.slug}`}>
                   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all overflow-hidden group">
                     <div className="aspect-[16/10] bg-gradient-to-br from-primary-200 to-primary-400 flex items-center justify-center">
                       <span className="text-primary-700 text-6xl font-bold opacity-30">
@@ -87,10 +91,10 @@ export default function ProyectosPage() {
       </section>
 
       <CTABanner
-        title="¿Tiene un Proyecto en Mente?"
-        description="Cuéntenos qué necesita y le preparamos un presupuesto personalizado sin compromiso."
-        buttonText="Solicitar Presupuesto"
-        buttonHref="/contacto"
+        title={dict.projects.ctaTitle}
+        description={dict.projects.ctaDesc}
+        buttonText={dict.cta.requestQuote}
+        buttonHref={`/${locale}/contacto`}
       />
     </>
   );

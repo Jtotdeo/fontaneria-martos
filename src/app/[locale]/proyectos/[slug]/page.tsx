@@ -1,38 +1,36 @@
-import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+"use client";
+
+import { useParams } from "next/navigation";
 import Link from "next/link";
+import { useDictionary } from "@/components/DictionaryProvider";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import CTABanner from "@/components/sections/CTABanner";
 import { projects } from "@/lib/data/projects";
 
-export function generateStaticParams() {
-  return projects.map((p) => ({ slug: p.slug }));
-}
+export default function ProjectDetailPage() {
+  const { slug } = useParams<{ slug: string }>();
+  const { dict, locale } = useDictionary();
 
-export function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
-  return params.then(({ slug }) => {
-    const project = projects.find((p) => p.slug === slug);
-    if (!project) return { title: "Proyecto no encontrado" };
-    return {
-      title: project.title,
-      description: project.shortDescription,
-    };
-  });
-}
-
-export default async function ProjectDetailPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
   const project = projects.find((p) => p.slug === slug);
-  if (!project) notFound();
+
+  if (!project) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900 mb-4">
+            Proyecto no encontrado
+          </h1>
+          <Link
+            href={`/${locale}/proyectos`}
+            className="text-primary-600 hover:underline"
+          >
+            {dict.common.back}
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -40,8 +38,8 @@ export default async function ProjectDetailPage({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs
             items={[
-              { label: "Inicio", href: "/" },
-              { label: "Proyectos", href: "/proyectos" },
+              { label: dict.common.home, href: `/${locale}` },
+              { label: dict.projects.pageTitle, href: `/${locale}/proyectos` },
               { label: project.title },
             ]}
           />
@@ -59,7 +57,7 @@ export default async function ProjectDetailPage({
         </div>
       </section>
 
-      {/* Galería placeholder */}
+      {/* Galeria placeholder */}
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -68,7 +66,9 @@ export default async function ProjectDetailPage({
                 key={i}
                 className="aspect-square bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl flex items-center justify-center"
               >
-                <span className="text-gray-400 text-sm">Foto {i + 1}</span>
+                <span className="text-gray-400 text-sm">
+                  {dict.projects.photo} {i + 1}
+                </span>
               </div>
             ))}
           </div>
@@ -82,7 +82,7 @@ export default async function ProjectDetailPage({
             <div className="lg:col-span-2 space-y-12">
               <AnimatedSection>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                  Descripción del Proyecto
+                  {dict.projects.description}
                 </h2>
                 <p className="text-gray-600 leading-relaxed">
                   {project.description}
@@ -92,18 +92,20 @@ export default async function ProjectDetailPage({
               <AnimatedSection delay={0.1}>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="bg-red-50 rounded-2xl p-6">
-                    <h3 className="font-bold text-red-700 mb-2">El Reto</h3>
+                    <h3 className="font-bold text-red-700 mb-2">
+                      {dict.projects.challenge}
+                    </h3>
                     <p className="text-gray-700 text-sm">{project.challenge}</p>
                   </div>
                   <div className="bg-blue-50 rounded-2xl p-6">
                     <h3 className="font-bold text-blue-700 mb-2">
-                      La Solución
+                      {dict.projects.solution}
                     </h3>
                     <p className="text-gray-700 text-sm">{project.solution}</p>
                   </div>
                   <div className="bg-green-50 rounded-2xl p-6">
                     <h3 className="font-bold text-green-700 mb-2">
-                      El Resultado
+                      {dict.projects.result}
                     </h3>
                     <p className="text-gray-700 text-sm">{project.result}</p>
                   </div>
@@ -116,7 +118,7 @@ export default async function ProjectDetailPage({
               <AnimatedSection delay={0.2}>
                 <div className="bg-gray-50 rounded-2xl p-8 sticky top-24">
                   <h3 className="text-xl font-bold text-gray-900 mb-6">
-                    Ficha Técnica
+                    {dict.projects.specs}
                   </h3>
                   <dl className="space-y-4">
                     {project.specs.map((spec) => (
@@ -130,10 +132,10 @@ export default async function ProjectDetailPage({
                   </dl>
                   <div className="mt-8">
                     <Link
-                      href="/contacto"
+                      href={`/${locale}/contacto`}
                       className="block w-full bg-primary-500 hover:bg-primary-600 text-white text-center py-3 rounded-xl font-semibold transition-colors"
                     >
-                      Proyecto Similar? Contáctenos
+                      {dict.projects.similarProject}
                     </Link>
                   </div>
                 </div>
@@ -144,10 +146,10 @@ export default async function ProjectDetailPage({
       </section>
 
       <CTABanner
-        title="¿Le Gustaría un Resultado Similar?"
-        description="Contacte con nosotros y le ayudaremos a planificar su proyecto con un presupuesto sin compromiso."
-        buttonText="Solicitar Presupuesto"
-        buttonHref="/contacto"
+        title={dict.projects.ctaTitle}
+        description={dict.projects.ctaDesc}
+        buttonText={dict.cta.requestQuote}
+        buttonHref={`/${locale}/contacto`}
       />
     </>
   );
