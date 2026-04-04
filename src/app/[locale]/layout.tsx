@@ -27,7 +27,7 @@ export default async function LocaleLayout({
   return (
     <DictionaryProvider dictionary={dict} locale={locale as Locale}>
       <Header />
-      <main className="flex-1">{children}</main>
+      <main className="flex-1 pt-[104px] md:pt-[116px]">{children}</main>
       <Footer />
     </DictionaryProvider>
   );
