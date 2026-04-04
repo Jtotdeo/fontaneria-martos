@@ -53,15 +53,14 @@ export default function Header() {
     setDropdownOpen(false);
   }, [pathname]);
 
-  const isHome = pathname === prefix || pathname === `${prefix}/`;
-  const headerBg = scrolled || !isHome ? "bg-white shadow-md" : "bg-transparent";
-  const textColor = scrolled || !isHome ? "text-gray-900" : "text-white";
-  const linkHover = scrolled || !isHome ? "hover:text-primary-600" : "hover:text-primary-200";
+  const headerBg = "bg-white shadow-md";
+  const textColor = "text-gray-900";
+  const linkHover = "hover:text-primary-600";
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${headerBg}`}>
       {/* Top bar */}
-      <div className={`hidden md:block border-b transition-colors ${scrolled || !isHome ? "border-gray-100" : "border-white/10"}`}>
+      <div className="hidden md:block border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-2">
           <LanguageSwitcher />
           <a
